@@ -1,0 +1,319 @@
+#EXTM3U 
+#EXTINF:-1,Jurnal TV HD
+http://starnet-md.JURNALTV_H264
+#EXTINF:-1,TV8 HD
+http://starnet-md.TV8_H264
+#EXTINF:-1,ProTV Chisinau HD
+http://starnet-md.PROTV_CHISINAU_H264
+#EXTINF:-1,TVR Moldova
+http://starnet-md.TVR_H264
+#EXTINF:-1,Prime HD
+http://starnet-md.PRIMEHD_H264
+#EXTINF:-1,Canal2 HD
+http://starnet-md.CANAL2_H264
+#EXTINF:-1,Canal3 HD
+http://starnet-md.CANAL3_H264
+#EXTINF:-1,PublikaTV HD
+http://starnet-md.PUBLIKATV_H264
+#EXTINF:-1,Moldova 1 HD
+http://starnet-md.MOLDOVA1_H264
+#EXTINF:-1,Moldova 2
+http://starnet-md.MOLDOVA2_H264
+#EXTINF:-1,TНТ Exclusiv TV
+http://starnet-md.TNT_EXCLUSIV_H264
+#EXTINF:-1,Kvartal TV
+http://starnet-md.KVARTALTV_H264
+#EXTINF:-1,BTV HD
+http://starnet-md.BTV_H264
+#EXTINF:-1,TVC21
+http://starnet-md.TVC21_H264
+#EXTINF:-1,CTC Mega
+http://starnet-md.CTCMEGA_H264
+#EXTINF:-1,Cotidianul TV
+http://starnet-md.COTIDIANUL_TV_H264
+#EXTINF:-1,Рен TV Moldova
+http://starnet-md.RENTV_MOLDOVA_H264
+#EXTINF:-1,NTV Moldova
+http://starnet-md.NTV_MOLDOVA_H264
+#EXTINF:-1,RTR Moldova HD
+http://starnet-md.RTR_MOLDOVA_H264
+#EXTINF:-1,Realitatea LIVE
+http://starnet-md.REALITATEA_LIVE_H264
+#EXTINF:-1,Televiziunea Centrala HD
+http://starnet-md.TELEVIZIUNEACENTRALA_H264
+#EXTINF:-1,Kanal D
+http://starnet-md.KANALD_H264
+#EXTINF:-1,Noroc TV HD
+http://starnet-md.NOROCTV_H264
+#EXTINF:-1,Sor TV
+http://starnet-md.SORTV_H264
+#EXTINF:-1,N4
+http://starnet-md.N4_H264
+#EXTINF:-1,Accent TV
+http://starnet-md.ACCENT_TV_H264
+#EXTINF:-1,Agro TV
+http://starnet-md.AGROTV_H264
+#EXTINF:-1,NTS
+http://starnet-md.NTS_H264
+#EXTINF:-1,TV Prim Glodeni
+http://starnet-md.PRIMTV_H264
+#EXTINF:-1,OrheiTV HD
+http://starnet-md.ORHEITV_H264
+#EXTINF:-1,GRT
+http://starnet-md.GRT_H264
+#EXTINF:-1,Primul în Moldova
+http://starnet-md.PRIMULIN_MOLDOVA_H264
+#EXTINF:-1,ITV
+http://starnet-md.ITV_H264
+#EXTINF:-1,Drochia TV
+http://starnet-md.DROCHIATV_H264
+#EXTINF:-1,10 TV HD
+http://starnet-md.10TV_H264
+#EXTINF:-1,Axial TV HD
+http://starnet-md.AXIALTV_H264
+#EXTINF:-1,Bravo TV
+http://starnet-md.BRAVOTV_H264
+#EXTINF:-1,Canal Regional
+http://starnet-md.REGIONALTV_H264
+#EXTINF:-1,Elita TV
+http://starnet-md.ELITA_H264
+#EXTINF:-1,TVN
+http://starnet-md.TVN_H264
+#EXTINF:-1,Național TV
+http://starnet-md.NATIONALTV_H264
+#EXTINF:-1,Național 24 Plus
+http://starnet-md.NATIONAL24_PLUS_H264
+#EXTINF:-1,Vocea Basarabiei HD
+http://starnet-md.VOCEA_BASARABIEI_H264
+#EXTINF:-1,Media TV
+http://starnet-md.MEDIATV_H264
+#EXTINF:-1,Orizont TV
+http://starnet-md.ORIZONT_TV_H264
+#EXTINF:-1,ATV Gagauzia
+http://starnet-md.ATV_H264
+#EXTINF:-1,TV1000 HD
+http://starnet-md.TV1000_HD_H264
+#EXTINF:-1,TV1000 Action HD
+http://starnet-md.TV1000ACTION_HD_H264
+#EXTINF:-1,TV1000 Русское кино HD
+http://starnet-md.TV1000RU_HD_H264
+#EXTINF:-1,Familia Domashniy
+http://starnet-md.FAMILIA_DOMASHNII_H264
+#EXTINF:-1,BOLT HD
+http://starnet-md.BOLT_H264
+#EXTINF:-1,FilmuaDrama
+http://starnet-md.FILMUA_DRAMA_H264
+#EXTINF:-1,ZeeTV
+http://starnet-md.ZEETV_H264
+#EXTINF:-1,Время: далёкое и близкое
+http://starnet-md.VREMEA_H264
+#EXTINF:-1,Кинокомедия
+http://starnet-md.KINO_KOMEDYA_H264
+#EXTINF:-1,Кинопремьера HD
+http://starnet-md.KINOPREMIERA_H264
+#EXTINF:-1,Родное Кино
+http://starnet-md.RODNOIE_KINO_H264
+#EXTINF:-1,Кинохит
+http://starnet-md.KINOHIT_H264
+#EXTINF:-1,PRO Gold
+http://starnet-md.ACASA_GOLD_H264
+#EXTINF:-1,Дом Кино
+http://starnet-md.DOM_KINO_H264
+#EXTINF:-1,Киносерия
+http://starnet-md.KINOSERYA_H264
+#EXTINF:-1,Киносемья
+http://starnet-md.KINOSEMYA_H264
+#EXTINF:-1,Мужское Кино
+http://starnet-md.MUJSKOE_KINO_H264
+#EXTINF:-1,Star Cinema HD
+http://starnet-md.STARCINEMA_HD_H264
+#EXTINF:-1,Star Family HD
+http://starnet-md.STARFAMILY_HD_H264
+#EXTINF:-1,Киносвидание
+http://starnet-md.KINO_SVIDANIE_H264
+#EXTINF:-1,Наше Новое Кино
+http://starnet-md.NASHENOVOIE_KINO_H264
+#EXTINF:-1,Cinema
+http://starnet-md.CINEMA_H264
+#EXTINF:-1,Discovery Science
+http://starnet-md.DISCOVERY_SCIENCE_H264
+#EXTINF:-1,Discovery Channel
+http://starnet-md.DISCOVERY_CHANNEL_H264
+#EXTINF:-1,Живая Планета
+http://starnet-md.JIVAEA_PLANETA_H264
+#EXTINF:-1,Моя Планета
+http://starnet-md.MOYA_PLANETA_H264
+#EXTINF:-1,Наука 2.0
+http://starnet-md.NAUKA2_H264
+#EXTINF:-1,Duck TV
+http://starnet-md.DUCKTVHD_H264
+#EXTINF:-1,Minimax
+http://starnet-md.MINIMAX_H264
+#EXTINF:-1,Cartoon Network
+http://starnet-md.CARTOON_NETWORKRO_H264
+#EXTINF:-1,Рыжий
+http://starnet-md.RIJII_H264
+#EXTINF:-1,Gurinel TV HD
+http://starnet-md.GURINELTV_H264
+#EXTINF:-1,Карусель
+http://starnet-md.KARUSELI_H264
+#EXTINF:-1,Мульт
+http://starnet-md.MULIT_H264
+#EXTINF:-1,СТС Kids
+http://starnet-md.CTC_KIDS_H264
+#EXTINF:-1,Clasa 1 RO
+http://starnet-md.CLASA1_RO_H264
+#EXTINF:-1,Clasa 1 RU
+http://starnet-md.CLASA1_RU_H264
+#EXTINF:-1,Clasa 2 RO
+http://starnet-md.CLASA2_RO_H264
+#EXTINF:-1,Clasa 2 RU
+http://starnet-md.CLASA2_RU_H264
+#EXTINF:-1,Clasa 3 RO
+http://starnet-md.CLASA3_RO_H264
+#EXTINF:-1,Clasa 3 RU
+http://starnet-md.CLASA3_RU_H264
+#EXTINF:-1,Clasa 4 RO
+http://starnet-md.CLASA4_RO_H264
+#EXTINF:-1,Clasa 4 RU
+http://starnet-md.CLASA4_RU_H264
+#EXTINF:-1,Clasa 5 RO
+http://starnet-md.CLASA5_RO_H264
+#EXTINF:-1,Clasa 5 RU
+http://starnet-md.CLASA5_RU_H264
+#EXTINF:-1,Clasa 6 RO
+http://starnet-md.CLASA6_RO_H264
+#EXTINF:-1,Clasa 6 RU
+http://starnet-md.CLASA6_RU_H264
+#EXTINF:-1,Clasa 7 RO
+http://starnet-md.CLASA7_RO_H264
+#EXTINF:-1,Clasa 7 RU
+http://starnet-md.CLASA7_RU_H264
+#EXTINF:-1,Clasa 8 RO
+http://starnet-md.CLASA8_RO_H264
+#EXTINF:-1,Clasa 8 RU
+http://starnet-md.CLASA8_RU_H264
+#EXTINF:-1,Clasa 9 RO
+http://starnet-md.CLASA9_RO_H264
+#EXTINF:-1,Clasa 9 RU
+http://starnet-md.CLASA9_RU_H264
+#EXTINF:-1,Clasa 10 RO
+http://starnet-md.CLASA10_RO_H264
+#EXTINF:-1,Clasa 10 RU
+http://starnet-md.CLASA10_RU_H264
+#EXTINF:-1,Clasa 11 RO
+http://starnet-md.CLASA11_RO_H264
+#EXTINF:-1,Clasa 11 RU
+http://starnet-md.CLASA11_RU_H264
+#EXTINF:-1,Clasa 12 RO
+http://starnet-md.CLASA12_RO_H264
+#EXTINF:-1,Clasa 12 RU
+http://starnet-md.CLASA12_RU_H264
+#EXTINF:-1,Gold TV HD
+http://starnet-md.GOLDTVHD_H264
+#EXTINF:-1,RU TV Moldova
+http://starnet-md.RUTV_MOLDOVA_H264
+#EXTINF:-1,UTV
+http://starnet-md.UTV_H264
+#EXTINF:-1,Europa Plus TV
+http://starnet-md.EUROPA_PLUS_H264
+#EXTINF:-1,Tezaur TV
+http://starnet-md.TEZAUR_TV_H264
+#EXTINF:-1,Favorit TV
+http://starnet-md.FAVORITTV_H264
+#EXTINF:-1,THT Music
+http://starnet-md.TNT_MUSIC_H264
+#EXTINF:-1,Музыка Первого
+http://starnet-md.MUZIKA_PERVOGO_H264
+#EXTINF:-1,Taraf TV
+http://starnet-md.TARAFTV_H264
+#EXTINF:-1,Etno TV
+http://starnet-md.ETNOTV_H264
+#EXTINF:-1,Popas TV
+http://starnet-md.POPASTV_H264
+#EXTINF:-1,Busuioc TV
+http://starnet-md.BUSUIOCTV_H264
+#EXTINF:-1,Romania TV
+http://starnet-md.ROMANIA_TV_H264
+#EXTINF:-1,Bucuresti TV HD
+http://starnet-md.BUCURESTITV_HD_H264
+#EXTINF:-1,UA TV
+http://starnet-md.UATV_HD_H264
+#EXTINF:-1,BBC World News Europe HD
+http://starnet-md.BBCWORLDNEWSEUROPE_HD_H264
+#EXTINF:-1,Euro News
+http://starnet-md.EURONEWS_H264
+#EXTINF:-1,RTVi Europe
+http://starnet-md.RTVI_EUROPE_H264
+#EXTINF:-1,Интер +
+http://starnet-md.INTERPLUS_H264
+#EXTINF:-1,МИР
+http://starnet-md.MIR_H264
+#EXTINF:-1,TV5 Monde Europe
+http://starnet-md.TV5_MONDEEUROPE_H264
+#EXTINF:-1,France 24 FR
+http://starnet-md.FRANCE_24FR_H264
+#EXTINF:-1,France 24 EN
+http://starnet-md.FRANCE_24ENG_H264
+#EXTINF:-1,Deutsche Welle
+http://starnet-md.DW_H264
+#EXTINF:-1,CNN
+http://starnet-md.CNN_H264
+#EXTINF:-1,Deutsche Welle DE
+http://starnet-md.DE_DW_H264
+#EXTINF:-1,Беларусь 24
+http://starnet-md.BELARUSI_24_H264
+#EXTINF:-1,Neptun TV
+http://starnet-md.NEPTUNTV_H264
+#EXTINF:-1,Телекафе
+http://starnet-md.TELEKAFE_H264
+#EXTINF:-1,МИР 24
+http://starnet-md.MIR24_H264
+#EXTINF:-1,Настоящее Время
+http://starnet-md.NASTOIASHIE_VREMEA_H264
+#EXTINF:-1,Canal 5
+http://starnet-md.CANAL_5_H264
+#EXTINF:-1,Paprika TV
+http://starnet-md.PAPRIKATV_H264
+#EXTINF:-1,Кухня TV
+http://starnet-md.KUHNEATV_H264
+#EXTINF:-1,Бобер
+http://starnet-md.BOBIOR_H264
+#EXTINF:-1,Поехали!
+http://starnet-md.POIEHALI_H264
+#EXTINF:-1,КВН TV
+http://starnet-md.KVN_TV_H264
+#EXTINF:-1,CBS Reality
+http://starnet-md.CBS_REALITY_H264
+#EXTINF:-1,Живи
+http://starnet-md.JIVI_H264
+#EXTINF:-1,Дикий
+http://starnet-md.DIKYI_H264
+#EXTINF:-1,Fishing and Hunting TV
+http://starnet-md.FISHING_ANDHUNTING_H264
+#EXTINF:-1,Сарафан
+http://starnet-md.SARAFAN_H264
+#EXTINF:-1,Ностальгия
+http://starnet-md.NOSTALIGYA_H264
+#EXTINF:-1,Драйв
+http://starnet-md.DRAIV_H264
+#EXTINF:-1,TRAVEL MIX HD
+http://starnet-md.TRAVELMIX_HD_H264
+#EXTINF:-1,Alfa Omega TV
+http://starnet-md.ALFA_OMEGA_H264
+#EXTINF:-1,CNL TV
+http://starnet-md.CNL_H264
+#EXTINF:-1,Союз
+http://starnet-md.SOIUZ_H264
+#EXTINF:-1,Trinitas TV
+http://starnet-md.TRINITASTV_H264
+#EXTINF:-1,Speranta TV
+http://starnet-md.SPRETANTATV_H264
+#EXTINF:-1,Eurosport 1 RO
+http://starnet-md.EUROSPORT1RO_H264
+#EXTINF:-1,Eurosport 1 RU
+http://starnet-md.EUROSPORT1RU_H264
+#EXTINF:-1,Setanta Sports 1
+http://starnet-md.SETANTA_HD_H264
+#EXTINF:-1,Setanta Sports 2
+http://starnet-md.SETANTAPLUS_HD_H264
