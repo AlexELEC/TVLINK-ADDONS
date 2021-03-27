@@ -11,7 +11,7 @@ class Scraper:
     def __init__(self):
         self.source = 'StarNet'
         self.part_url = 'http://starnet-md.'
-        self.plist = 'https://raw.githubusercontent.com/Nexterr-origin/simpleTV-Playlists/main/starnet-md'
+        self.plist = 'https://raw.githubusercontent.com/AlexELEC/TVLINK-ADDONS/main/plist/starnet'
         self.link = 'ext:{0}:'.format(self.source)
         self.headers = {'User-Agent': 'Mozilla/5.0 (Linux; U; Android 4.1.1; POV_TV-HDMI-200BT Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'}
 
