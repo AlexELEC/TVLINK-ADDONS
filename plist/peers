@@ -1,0 +1,375 @@
+#EXTM3U
+#EXTINF:-1,12 канал (Омск)
+http://api.peers.tv/timeshift/ortrk12/16/playlist.m3u8?offset=3
+#EXTINF:-1,12 канал (Череповец)
+http://api.peers.tv/timeshift/kanal_12/126/playlist.m3u8?offset=3
+#EXTINF:-1,1HD
+http://api.peers.tv/timeshift/firstmuz/16/playlist.m3u8?offset=3
+#EXTINF:-1,365 Дней
+http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?offset=3
+#EXTINF:-1,49 канал (Новосибирск)
+http://api.peers.tv/timeshift/49kanal/16/playlist.m3u8?offset=3
+#EXTINF:-1,8 канал (Красноярск)
+http://api.peers.tv/timeshift/ya1pm/16/playlist.m3u8?offset=3
+#EXTINF:-1,A1
+http://api.peers.tv/timeshift/amedia1/16/playlist.m3u8?offset=3
+#EXTINF:-1,A2
+http://api.peers.tv/timeshift/amedia_2/16/playlist.m3u8?offset=3
+#EXTINF:-1,Amedia HIT
+http://api.peers.tv/timeshift/amedia_hit/16/playlist.m3u8?offset=3
+#EXTINF:-1,Amedia Premium
+http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Amedia Premium HD
+http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Animal Planet
+http://api.peers.tv/timeshift/animalplanet/16/playlist.m3u8?offset=3
+#EXTINF:-1,Animal Planet HD
+http://api.peers.tv/timeshift/animal_planet_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,blue HUSTLER
+http://api.peers.tv/timeshift/bluehust/16/playlist.m3u8?offset=3
+#EXTINF:-1,Brazzers TV Europe
+http://api.peers.tv/timeshift/brazzers_tv_europe/16/playlist.m3u8?offset=3
+#EXTINF:-1,Bridge TV
+http://api.peers.tv/timeshift/bridge/126/playlist.m3u8?offset=3
+#EXTINF:-1,Bridge TV Classic
+http://api.peers.tv/timeshift/bridge_tv_classic/126/playlist.m3u8?offset=3
+#EXTINF:-1,BRIDGE TV Deluxe
+http://api.peers.tv/timeshift/bridge_hd/126/playlist.m3u8?offset=3
+#EXTINF:-1,BRIDGE TV HITS
+http://api.peers.tv/timeshift/dange_tv/126/playlist.m3u8?offset=3
+#EXTINF:-1,BRIDGE TV Русский Хит
+http://api.peers.tv/timeshift/rusong_tv/126/playlist.m3u8?offset=3
+#EXTINF:-1,Cartoon Network
+http://api.peers.tv/timeshift/cartoonnetwork/16/playlist.m3u8?offset=3
+#EXTINF:-1,Da Vinci
+http://api.peers.tv/timeshift/da_vinci/16/playlist.m3u8?offset=3
+#EXTINF:-1,Discovery Channel
+http://api.peers.tv/timeshift/discovery/16/playlist.m3u8?offset=3
+#EXTINF:-1,Discovery Channel HD
+http://api.peers.tv/timeshift/discovery_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,DOCUBOX
+http://api.peers.tv/timeshift/docubox/16/playlist.m3u8?offset=3
+#EXTINF:-1,DTX
+http://api.peers.tv/timeshift/discoveryworld/16/playlist.m3u8?offset=3
+#EXTINF:-1,Erox
+http://api.peers.tv/timeshift/erox/16/playlist.m3u8?offset=3
+#EXTINF:-1,Eurosport 1
+http://api.peers.tv/timeshift/eurosport/16/playlist.m3u8?offset=3
+#EXTINF:-1,Eurosport 1 HD
+http://api.peers.tv/timeshift/eurosport_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Eurosport 2
+http://api.peers.tv/timeshift/eurosport2/16/playlist.m3u8?offset=3
+#EXTINF:-1,Eurosport 2 HD
+http://api.peers.tv/timeshift/eurosport_2_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,FashionTV
+http://api.peers.tv/timeshift/fashion/16/playlist.m3u8?offset=3
+#EXTINF:-1,FILMBOX
+http://api.peers.tv/timeshift/filmbox/16/playlist.m3u8?offset=3
+#EXTINF:-1,Filmbox Arthouse
+http://api.peers.tv/timeshift/filmbox_arthouse/16/playlist.m3u8?offset=3
+#EXTINF:-1,Fox
+http://api.peers.tv/timeshift/fox/16/playlist.m3u8?offset=3
+#EXTINF:-1,Fox HD
+http://api.peers.tv/timeshift/fox_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Fox Life
+http://api.peers.tv/timeshift/foxlife_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Fox Life HD
+http://api.peers.tv/timeshift/foxlife_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,KINO 24
+http://api.peers.tv/timeshift/kino24/126/playlist.m3u8?offset=3
+#EXTINF:-1,MTV Dance
+http://api.peers.tv/timeshift/mtv_dance/16/playlist.m3u8?offset=3
+#EXTINF:-1,MTV HD
+http://api.peers.tv/timeshift/mtv_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,MTV Russia
+http://api.peers.tv/timeshift/mtv_russia/16/playlist.m3u8?offset=3
+#EXTINF:-1,Nat Geo Wild HD
+http://api.peers.tv/timeshift/nat_geo_wild_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,National Geographic
+http://api.peers.tv/timeshift/natgeo/16/playlist.m3u8?offset=3
+#EXTINF:-1,National Geographic HD
+http://api.peers.tv/timeshift/national_geographic_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Nick Jr
+http://api.peers.tv/timeshift/nick_jr_baby/16/playlist.m3u8?offset=3
+#EXTINF:-1,Nickelodeon
+http://api.peers.tv/timeshift/nickelodeon/126/playlist.m3u8?offset=3
+#EXTINF:-1,Nickelodeon HD
+http://api.peers.tv/timeshift/nickelodeon_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,RTД
+http://api.peers.tv/timeshift/russia_today_doc/126/playlist.m3u8?offset=3
+#EXTINF:-1,RU TV
+http://api.peers.tv/timeshift/rutv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Russia Today
+http://api.peers.tv/timeshift/russiatoday/126/playlist.m3u8?offset=3
+#EXTINF:-1,Russian Travel Guide
+http://api.peers.tv/timeshift/rustravel/16/playlist.m3u8?offset=3
+#EXTINF:-1,SOCHI24 (Сочи)
+http://api.peers.tv/timeshift/sochi24/16/playlist.m3u8?offset=3
+#EXTINF:-1,Song TV Armenia
+http://api.peers.tv/timeshift/mtvam/126/playlist.m3u8?offset=3
+#EXTINF:-1,TLC
+http://api.peers.tv/timeshift/tlc/16/playlist.m3u8?offset=3
+#EXTINF:-1,TLC HD
+http://api.peers.tv/timeshift/tlc_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,TV XXI
+http://api.peers.tv/timeshift/tv21/16/playlist.m3u8?offset=3
+#EXTINF:-1,TV1000
+http://api.peers.tv/timeshift/tv1000/16/playlist.m3u8?offset=3
+#EXTINF:-1,TV1000 Action
+http://api.peers.tv/timeshift/tv1000_action/16/playlist.m3u8?offset=3
+#EXTINF:-1,TV1000 Русское кино
+http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?offset=3
+#EXTINF:-1,Viasat Explore
+http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?offset=3
+#EXTINF:-1,Viasat History
+http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?offset=3
+#EXTINF:-1,Viasat Nature
+http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?offset=3
+#EXTINF:-1,VIP Comedy
+http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,VIP Megahit
+http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,VIP Premiere
+http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,VIP Serial HD
+http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Zooпаpк
+http://api.peers.tv/timeshift/zoopark/126/playlist.m3u8?offset=3
+#EXTINF:-1,Авто 24
+http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?offset=3
+#EXTINF:-1,Авто Плюс
+http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?offset=3
+#EXTINF:-1,Башкортостан 24
+http://api.peers.tv/timeshift/bashkortostan_24/16/playlist.m3u8?offset=3
+#EXTINF:-1,Бокс ТВ
+http://api.peers.tv/timeshift/boks_tv/16/playlist.m3u8?offset=3
+#EXTINF:-1,ВРЕМЯ
+http://api.peers.tv/timeshift/time/16/playlist.m3u8?offset=3
+#EXTINF:-1,ГТРК Кузбасс
+http://api.peers.tv/timeshift/gtrk_kuzbass/16/playlist.m3u8?offset=3
+#EXTINF:-1,Диалоги о Рыбалке
+http://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8?offset=3
+#EXTINF:-1,Дождь
+http://api.peers.tv/timeshift/rain/16/playlist.m3u8?offset=3
+#EXTINF:-1,Дом кино
+http://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8?offset=3
+#EXTINF:-1,Домашний
+http://api.peers.tv/timeshift/domashny/126/playlist.m3u8?offset=3
+#EXTINF:-1,Дон 24 (Ростов-на-Дону)
+http://api.peers.tv/timeshift/don_24/126/playlist.m3u8?offset=3
+#EXTINF:-1,Драйв
+http://api.peers.tv/timeshift/drive/16/playlist.m3u8?offset=3
+#EXTINF:-1,Евпатория ТВ (Евпатория)
+http://api.peers.tv/timeshift/evpatorija/126/playlist.m3u8?offset=3
+#EXTINF:-1,Еврокино
+http://api.peers.tv/timeshift/eurokino/16/playlist.m3u8?offset=3
+#EXTINF:-1,Евроновости
+http://api.peers.tv/timeshift/euronews/16/playlist.m3u8?offset=3
+#EXTINF:-1,ЕГЭ
+http://api.peers.tv/timeshift/ege/16/playlist.m3u8?offset=3
+#EXTINF:-1,Живая планета
+http://api.peers.tv/timeshift/zhivaya_planeta/16/playlist.m3u8?offset=3
+#EXTINF:-1,Живи
+http://api.peers.tv/timeshift/jv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Заб.TV (Чита)
+http://api.peers.tv/timeshift/vsya_ufa/16/playlist.m3u8?offset=3
+#EXTINF:-1,Загородная жизнь
+http://api.peers.tv/timeshift/zagorod_zh/16/playlist.m3u8?offset=3
+#EXTINF:-1,Звезда
+http://api.peers.tv/timeshift/zvezda/126/playlist.m3u8?offset=3
+#EXTINF:-1,Зоо ТВ
+http://api.peers.tv/timeshift/zoo_tv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Иллюзион +
+http://api.peers.tv/timeshift/illyuzion/16/playlist.m3u8?offset=3
+#EXTINF:-1,Калейдоскоп ТВ
+http://api.peers.tv/timeshift/kaleydoskop/16/playlist.m3u8?offset=3
+#EXTINF:-1,Карусель
+http://api.peers.tv/timeshift/karusel/16/playlist.m3u8?offset=3
+#EXTINF:-1,Кинокомедия
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Киномикс
+http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?offset=3
+#EXTINF:-1,Классика Кино
+http://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?offset=3
+#EXTINF:-1,Контрольная закупка
+http://api.peers.tv/timeshift/kontrolnaya_zakupka/126/playlist.m3u8?offset=3
+#EXTINF:-1,Краснодар он-лайн (Краснодар)
+http://api.peers.tv/timeshift/krasnodar_on_layn/126/playlist.m3u8?offset=3
+#EXTINF:-1,Крик ТВ (Екатеринбург)
+http://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Крым 24 (Симферополь)
+http://api.peers.tv/timeshift/krym_24/126/playlist.m3u8?offset=3
+#EXTINF:-1,Кубань 24 ОРБИТА (Краснодар)
+http://api.peers.tv/timeshift/kuban24/126/playlist.m3u8?offset=3
+#EXTINF:-1,Культура
+http://api.peers.tv/timeshift/kultura/126/playlist.m3u8?offset=3
+#EXTINF:-1,КХЛ HD
+http://api.peers.tv/timeshift/kxl_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,ЛДПР ТВ
+http://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Любимое кино
+http://api.peers.tv/timeshift/favmovie/16/playlist.m3u8?offset=3
+#EXTINF:-1,Ля-минор
+http://api.peers.tv/timeshift/la_minor/16/playlist.m3u8?offset=3
+#EXTINF:-1,Малыш
+http://api.peers.tv/timeshift/malysh/16/playlist.m3u8?offset=3
+#EXTINF:-1,Мама
+http://api.peers.tv/timeshift/motherchi/16/playlist.m3u8?offset=3
+#EXTINF:-1,Матч! Боец
+http://api.peers.tv/timeshift/boets/16/playlist.m3u8?offset=3
+#EXTINF:-1,Матч! Страна
+http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?offset=3
+#EXTINF:-1,Мир
+http://api.peers.tv/timeshift/mir/126/playlist.m3u8?offset=3
+#EXTINF:-1,Мир 24
+http://api.peers.tv/timeshift/mir24/16/playlist.m3u8?offset=3
+#EXTINF:-1,МИР PREMIUM
+http://api.peers.tv/timeshift/mir_hd/126/playlist.m3u8?offset=3
+#EXTINF:-1,Мир сериала
+http://api.peers.tv/timeshift/mir_seriala/126/playlist.m3u8?offset=3
+#EXTINF:-1,Мордовия 24 (Саранск)
+http://api.peers.tv/timeshift/mordoviya_24/126/playlist.m3u8?offset=3
+#EXTINF:-1,Москва 24 (Москва)
+http://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8?offset=3
+#EXTINF:-1,Моя планета
+http://api.peers.tv/timeshift/my_planet/16/playlist.m3u8?offset=3
+#EXTINF:-1,Мужской
+http://api.peers.tv/timeshift/muzhskoj/126/playlist.m3u8?offset=3
+#EXTINF:-1,МУЛЬТ
+http://api.peers.tv/timeshift/sovetskiemult/16/playlist.m3u8?offset=3
+#EXTINF:-1,Мультимания
+http://api.peers.tv/timeshift/multimania/126/playlist.m3u8?offset=3
+#EXTINF:-1,Настоящее страшное ТВ
+http://api.peers.tv/timeshift/nstv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Наша тема
+http://api.peers.tv/timeshift/nasha_tema/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТВ
+http://api.peers.tv/timeshift/ntv/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТВ Право
+http://api.peers.tv/timeshift/ntv_pravo/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТВ Сериал
+http://api.peers.tv/timeshift/ntv_serial/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТВ Стиль
+http://api.peers.tv/timeshift/ntv_stil/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТВ Хит
+http://api.peers.tv/timeshift/ntv_hit/16/playlist.m3u8?offset=3
+#EXTINF:-1,НТС (Севастополь)
+http://api.peers.tv/timeshift/nts/126/playlist.m3u8?offset=3
+#EXTINF:-1,Оружие
+http://api.peers.tv/timeshift/oruzhie/16/playlist.m3u8?offset=3
+#EXTINF:-1,ОТВ 24 (Екатеринбург)
+http://api.peers.tv/timeshift/otv24_ekb/126/playlist.m3u8?offset=3
+#EXTINF:-1,ОТС HD
+http://api.peers.tv/timeshift/ots/16/playlist.m3u8?offset=3
+#EXTINF:-1,Охотник и рыболов
+http://api.peers.tv/timeshift/ohotnik_i_rybolov/16/playlist.m3u8?offset=3
+#EXTINF:-1,Первый
+http://api.peers.tv/timeshift/1kanal/126/playlist.m3u8?offset=3
+#EXTINF:-1,Первый HD
+http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Первый вегетарианский
+http://api.peers.tv/timeshift/pervyy_vegetarianskiy/16/playlist.m3u8?offset=3
+#EXTINF:-1,Первый Крымский (Симферополь)
+http://api.peers.tv/timeshift/1_krymskiy/126/playlist.m3u8?offset=3
+#EXTINF:-1,Первый Театральный Канал
+http://api.peers.tv/timeshift/1teatr/16/playlist.m3u8?offset=3
+#EXTINF:-1,Победа
+http://api.peers.tv/timeshift/pobeda/16/playlist.m3u8?offset=3
+#EXTINF:-1,Пятница
+http://api.peers.tv/timeshift/friday/16/playlist.m3u8?offset=3
+#EXTINF:-1,Пятый канал
+http://api.peers.tv/timeshift/5kanal/126/playlist.m3u8?offset=3
+#EXTINF:-1,Радость моя
+http://api.peers.tv/timeshift/radost_moj/16/playlist.m3u8?offset=3
+#EXTINF:-1,РБК
+http://api.peers.tv/timeshift/rbk/126/playlist.m3u8?offset=3
+#EXTINF:-1,РЕН ТВ
+http://api.peers.tv/timeshift/rentv/126/playlist.m3u8?offset=3
+#EXTINF:-1,Ретро
+http://api.peers.tv/timeshift/retro/16/playlist.m3u8?offset=3
+#EXTINF:-1,Россия 1
+http://api.peers.tv/timeshift/rossija/126/playlist.m3u8?offset=3
+#EXTINF:-1,Россия 1 HD
+http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?offset=3
+#EXTINF:-1,Россия 24
+http://api.peers.tv/timeshift/vesti/126/playlist.m3u8?offset=3
+#EXTINF:-1,Ростов-папа (Ростов-на-дону)
+http://api.peers.tv/timeshift/rostov_papa/126/playlist.m3u8?offset=3
+#EXTINF:-1,Русский бестселлер
+http://api.peers.tv/timeshift/russia_best/16/playlist.m3u8?offset=3
+#EXTINF:-1,Русский детектив
+http://api.peers.tv/timeshift/russkiy_detektiv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Русский иллюзион
+http://api.peers.tv/timeshift/russian_illusion/16/playlist.m3u8?offset=3
+#EXTINF:-1,Русский роман
+http://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8?offset=3
+#EXTINF:-1,Русский Экстрим
+http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?offset=3
+#EXTINF:-1,Салям
+http://api.peers.tv/timeshift/salyam/126/playlist.m3u8?offset=3
+#EXTINF:-1,Самотлор
+http://api.peers.tv/timeshift/samotlor/126/playlist.m3u8?offset=3
+#EXTINF:-1,Санкт-Петербург
+http://api.peers.tv/timeshift/topspb/126/playlist.m3u8?offset=3
+#EXTINF:-1,Сарафан
+http://api.peers.tv/timeshift/sarafan/16/playlist.m3u8?offset=3
+#EXTINF:-1,Сказки Зайки
+http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?offset=3
+#EXTINF:-1,Советские мультфильмы
+http://api.peers.tv/timeshift/sovetskiemult/16/playlist.m3u8?offset=3
+#EXTINF:-1,Советское кино
+http://api.peers.tv/timeshift/sovetskoekino/16/playlist.m3u8?offset=3
+#EXTINF:-1,Союз
+http://api.peers.tv/timeshift/soyuz/16/playlist.m3u8?offset=3
+#EXTINF:-1,СПАС
+http://api.peers.tv/timeshift/spas/16/playlist.m3u8?offset=3
+#EXTINF:-1,СТС
+http://api.peers.tv/timeshift/sts/126/playlist.m3u8?offset=3
+#EXTINF:-1,СТС Kids
+http://api.peers.tv/timeshift/sts_kids/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТВ Центр
+http://api.peers.tv/timeshift/tvc/126/playlist.m3u8?offset=3
+#EXTINF:-1,ТВ-3
+http://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТВК
+http://api.peers.tv/timeshift/tvk_6/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТелеБалтНьюс
+http://api.peers.tv/timeshift/tbn/126/playlist.m3u8?offset=3
+#EXTINF:-1,Телекафе
+http://api.peers.tv/timeshift/telekafe/16/playlist.m3u8?offset=3
+#EXTINF:-1,Телепутешествия
+http://api.peers.tv/timeshift/teleputeshestviya/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТЕХНО 24
+http://api.peers.tv/timeshift/24techno/16/playlist.m3u8?offset=3
+#EXTINF:-1,Тивиком (Улан-Удэ)
+http://api.peers.tv/timeshift/tivikom/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТНВ-Планета (Казань)
+http://api.peers.tv/timeshift/tnv/126/playlist.m3u8?offset=3
+#EXTINF:-1,ТНТ
+http://api.peers.tv/timeshift/tnt/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТНТ HD
+http://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТНТ Music
+http://api.peers.tv/timeshift/tnt_music/16/playlist.m3u8?offset=3
+#EXTINF:-1,ТНТ4
+http://api.peers.tv/timeshift/tnt4/16/playlist.m3u8?offset=3
+#EXTINF:-1,Уникум
+http://api.peers.tv/timeshift/forkids/16/playlist.m3u8?offset=3
+#EXTINF:-1,Успех
+http://api.peers.tv/timeshift/uspex/16/playlist.m3u8?offset=3
+#EXTINF:-1,Футбол
+http://api.peers.tv/timeshift/futbol/126/playlist.m3u8?offset=3
+#EXTINF:-1,Футбол HD
+http://api.peers.tv/timeshift/futbol_hd/126/playlist.m3u8?offset=3
+#EXTINF:-1,Центральное телевидение
+http://api.peers.tv/timeshift/tvc_ctv/126/playlist.m3u8?offset=3
+#EXTINF:-1,Че
+http://api.peers.tv/timeshift/perec/16/playlist.m3u8?offset=3
+#EXTINF:-1,Шансон ТВ
+http://api.peers.tv/timeshift/shanson/16/playlist.m3u8?offset=3
+#EXTINF:-1,Ювелирочка
+http://api.peers.tv/timeshift/yuvelirochka/16/playlist.m3u8?offset=3
+#EXTINF:-1,ЮТВ
+http://api.peers.tv/timeshift/utv/16/playlist.m3u8?offset=3
+#EXTINF:-1,Ямал-Регион (Салехард)
+http://api.peers.tv/timeshift/yamal_region/16/playlist.m3u8?offset=3
