@@ -1,4 +1,18 @@
 #EXTM3U 
+#EXTINF:-1,match planeta
+http://starnet-md.MATCH_PLANETA_H264
+#EXTINF:-1,qsport
+http://starnet-md.QSPORT_H264
+#EXTINF:-1,m1-global
+http://starnet-md.M_1GLOBAL_H264
+#EXTINF:-1,setantasports HD
+http://starnet-md.SETANTASPORTS_HD_H264
+#EXTINF:-1,viasat sport HD
+http://starnet-md.VIASAT_SPORTHD_H264
+#EXTINF:-1,pervyy kosmicheskiy HD
+http://starnet-md.PERVYY_KOSMICHESKIYHD_H264
+#EXTINF:-1,kapitan fantastika HD
+http://starnet-md.KAPITAN_FANTASTIKA_HD_H264
 #EXTINF:-1,Jurnal TV HD
 http://starnet-md.JURNALTV_H264
 #EXTINF:-1,TV8 HD
