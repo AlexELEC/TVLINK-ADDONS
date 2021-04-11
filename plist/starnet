@@ -1,4 +1,36 @@
-#EXTM3U 
+#EXTM3U
+#EXTINF:-1,Дом Кино Премиум HD
+http://starnet-md.DOMKINO_PREMIIUMHD_H264
+#EXTINF:-1,Наша Сибирь HD
+http://starnet-md.NASHASYBYRI_H264
+#EXTINF:-1,Viasat Nature/History HD
+http://starnet-md.VIASAT_NATHISTORYHD_H264
+#EXTINF:-1,Da Vinci Learning
+http://starnet-md.DAVINCI_LEARNING_H264
+#EXTINF:-1,Приключения HD
+http://starnet-md.PRIKLIUCENIAHD_H264
+#EXTINF:-1,В мире животных
+http://starnet-md.VMIRE_JIVOTNIH_H264
+#EXTINF:-1,Охота и рыбалка
+http://starnet-md.OKHOTAIRYBALKA_H264
+#EXTINF:-1,Охотник и рыбалов HD
+http://starnet-md.OHOTNIK_IRIBALOV_H264
+#EXTINF:-1,Усадьба
+http://starnet-md.USADBA_H264
+#EXTINF:-1,Здоровье
+http://starnet-md.ZDOROVOYE_TV_H264
+#EXTINF:-1,Ля Минор
+http://starnet-md.LEA_MINOR_H264
+#EXTINF:-1,TLC
+http://starnet-md.DISCOVERY_TLC_H264
+#EXTINF:-1,Disney
+http://starnet-md.DISNEY_CHANNELRO_H264
+#EXTINF:-1,A7 HD
+http://starnet-md.A7_HD_H264
+#EXTINF:-1,B1 TV
+http://starnet-md.B1_TV_H264
+#EXTINF:-1,Digi 24
+http://starnet-md.DIGI_24_H264
 #EXTINF:-1,match planeta
 http://starnet-md.MATCH_PLANETA_H264
 #EXTINF:-1,qsport
