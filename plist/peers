@@ -77,8 +77,6 @@ http://api.peers.tv/timeshift/foxlife_hd/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/foxlife_hd/16/playlist.m3u8?offset=3
 #EXTINF:-1,KINO 24
 http://api.peers.tv/timeshift/kino24/126/playlist.m3u8?offset=3
-#EXTINF:-1,MTV Dance
-http://api.peers.tv/timeshift/mtv_dance/16/playlist.m3u8?offset=3
 #EXTINF:-1,MTV HD
 http://api.peers.tv/timeshift/mtv_hd/16/playlist.m3u8?offset=3
 #EXTINF:-1,MTV Russia
@@ -95,18 +93,12 @@ http://api.peers.tv/timeshift/nick_jr_baby/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/nickelodeon/126/playlist.m3u8?offset=3
 #EXTINF:-1,Nickelodeon HD
 http://api.peers.tv/timeshift/nickelodeon_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1,RTД
-http://api.peers.tv/timeshift/russia_today_doc/126/playlist.m3u8?offset=3
 #EXTINF:-1,RU TV
 http://api.peers.tv/timeshift/rutv/16/playlist.m3u8?offset=3
 #EXTINF:-1,Russia Today
 http://api.peers.tv/timeshift/russiatoday/126/playlist.m3u8?offset=3
 #EXTINF:-1,Russian Travel Guide
 http://api.peers.tv/timeshift/rustravel/16/playlist.m3u8?offset=3
-#EXTINF:-1,SOCHI24 (Сочи)
-http://api.peers.tv/timeshift/sochi24/16/playlist.m3u8?offset=3
-#EXTINF:-1,Song TV Armenia
-http://api.peers.tv/timeshift/mtvam/126/playlist.m3u8?offset=3
 #EXTINF:-1,TLC
 http://api.peers.tv/timeshift/tlc/16/playlist.m3u8?offset=3
 #EXTINF:-1,TLC HD
@@ -135,14 +127,10 @@ http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?offset=3
 #EXTINF:-1,Zooпаpк
 http://api.peers.tv/timeshift/zoopark/126/playlist.m3u8?offset=3
-#EXTINF:-1,Авто 24
-http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?offset=3
 #EXTINF:-1,Авто Плюс
 http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?offset=3
 #EXTINF:-1,Башкортостан 24
 http://api.peers.tv/timeshift/bashkortostan_24/16/playlist.m3u8?offset=3
-#EXTINF:-1,Бокс ТВ
-http://api.peers.tv/timeshift/boks_tv/16/playlist.m3u8?offset=3
 #EXTINF:-1,ВРЕМЯ
 http://api.peers.tv/timeshift/time/16/playlist.m3u8?offset=3
 #EXTINF:-1,ГТРК Кузбасс
@@ -223,8 +211,6 @@ http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/mir/126/playlist.m3u8?offset=3
 #EXTINF:-1,Мир 24
 http://api.peers.tv/timeshift/mir24/16/playlist.m3u8?offset=3
-#EXTINF:-1,МИР PREMIUM
-http://api.peers.tv/timeshift/mir_hd/126/playlist.m3u8?offset=3
 #EXTINF:-1,Мир сериала
 http://api.peers.tv/timeshift/mir_seriala/126/playlist.m3u8?offset=3
 #EXTINF:-1,Мордовия 24 (Саранск)
@@ -307,8 +293,6 @@ http://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?offset=3
 #EXTINF:-1,Салям
 http://api.peers.tv/timeshift/salyam/126/playlist.m3u8?offset=3
-#EXTINF:-1,Самотлор
-http://api.peers.tv/timeshift/samotlor/126/playlist.m3u8?offset=3
 #EXTINF:-1,Санкт-Петербург
 http://api.peers.tv/timeshift/topspb/126/playlist.m3u8?offset=3
 #EXTINF:-1,Сарафан
@@ -333,8 +317,6 @@ http://api.peers.tv/timeshift/tvc/126/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=3
 #EXTINF:-1,ТВК
 http://api.peers.tv/timeshift/tvk_6/16/playlist.m3u8?offset=3
-#EXTINF:-1,ТелеБалтНьюс
-http://api.peers.tv/timeshift/tbn/126/playlist.m3u8?offset=3
 #EXTINF:-1,Телекафе
 http://api.peers.tv/timeshift/telekafe/16/playlist.m3u8?offset=3
 #EXTINF:-1,Телепутешествия
@@ -359,8 +341,6 @@ http://api.peers.tv/timeshift/forkids/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/uspex/16/playlist.m3u8?offset=3
 #EXTINF:-1,Футбол
 http://api.peers.tv/timeshift/futbol/126/playlist.m3u8?offset=3
-#EXTINF:-1,Футбол HD
-http://api.peers.tv/timeshift/futbol_hd/126/playlist.m3u8?offset=3
 #EXTINF:-1,Центральное телевидение
 http://api.peers.tv/timeshift/tvc_ctv/126/playlist.m3u8?offset=3
 #EXTINF:-1,Че
