@@ -22,9 +22,9 @@ class Scraper:
         self.headers = {'User-Agent': 'mag'}
 
         ### set proxy list for register account ###
-        '''
-        if the proxy is not needed, set:
         self.proxy_list = None
+
+        # sample proxy list
         '''
         self.proxy_list = [
                           'http://185.234.244.30:8080',
@@ -36,6 +36,7 @@ class Scraper:
                           'http://185.110.211.101:8080',
                           'http://85.143.254.20:8080',
                           ]
+        '''
 
     def getHeaders(self):
         return self.headers
