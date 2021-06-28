@@ -199,8 +199,6 @@ http://streamer-hls.fregat.net/hls/zeetv.m3u8
 http://streamer-hls.fregat.net/hls/mtvdance.m3u8
 #EXTINF:-1, Бартоломео
 http://streamer-hls.fregat.net/hls/cam1.m3u8
-#EXTINF:-1, Беларусь 24
-http://streamer-hls.fregat.net/hls/belarus24.m3u8
 #EXTINF:-1, Гениуне ТВ
 http://streamer-hls.fregat.net/hls/geniunetv.m3u8
 #EXTINF:-1, Горизонт ТВ
