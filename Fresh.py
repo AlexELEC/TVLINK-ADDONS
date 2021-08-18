@@ -63,5 +63,9 @@ class Scraper:
         php_lnk = iframe.find('iframe').get('src')
         http = utils.getURL(php_lnk, referer=lnk)
         url = utils.mfind(http, '?file=', '" type')
+        if not url.startswith('http'):
+            url = utils.mfind(http, 'source: "', '",')
+            if not url.startswith('http'):
+                url = utils.mfind(http, 'iframe src="', '" width')
         # url = 'http://50.7.220.130:8081/24techno/index.m3u8?wmsAuthSign=527278d4d09ca92492d4d5878d79b7a6-1616762350-89i84i08i212'
         return url
