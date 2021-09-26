@@ -63,8 +63,6 @@ http://streamer-hls.fregat.net/hls/24news.m3u8
 http://streamer-hls.fregat.net/hls/novy.m3u8
 #EXTINF:-1, Парламентский канал Рада
 http://streamer-hls.fregat.net/hls/rada.m3u8
-#EXTINF:-1, Первый автомобильный
-http://streamer-hls.fregat.net/hls/1auto.m3u8
 #EXTINF:-1, Первый деловой
 http://streamer-hls.fregat.net/hls/1delovoy.m3u8
 #EXTINF:-1, Пиксель
@@ -81,8 +79,6 @@ http://streamer-hls.fregat.net/hls/tv1000.m3u8
 http://streamer-hls.fregat.net/hls/tet.m3u8
 #EXTINF:-1, ТК Мега
 http://streamer-hls.fregat.net/hls/mega.m3u8
-#EXTINF:-1, Трофей
-http://streamer-hls.fregat.net/hls/trofey.m3u8
 #EXTINF:-1, Униан
 http://streamer-hls.fregat.net/hls/unian.m3u8
 #EXTINF:-1, Шоппинг ТВ
@@ -163,12 +159,6 @@ http://streamer-hls.fregat.net/hls/pcomedy.m3u8
 http://streamer-hls.fregat.net/hls/rai.m3u8
 #EXTINF:-1, Sonata.tv
 http://streamer-hls.fregat.net/hls/sonata.m3u8
-#EXTINF:-1, Sony HD
-http://streamer-hls.fregat.net/hls/sonyhd.m3u8
-#EXTINF:-1, Sony SCi Fi
-http://streamer-hls.fregat.net/hls/sonyscifi.m3u8
-#EXTINF:-1, Sony Turbo
-http://streamer-hls.fregat.net/hls/sonyturbo.m3u8
 #EXTINF:-1, Star Cinema
 http://streamer-hls.fregat.net/hls/starcinema.m3u8
 #EXTINF:-1, Star Family
@@ -197,16 +187,14 @@ http://streamer-hls.fregat.net/hls/xsport.m3u8
 http://streamer-hls.fregat.net/hls/zeetv.m3u8
 #EXTINF:-1, club MTV
 http://streamer-hls.fregat.net/hls/mtvdance.m3u8
+#EXTINF:-1, dnipro.tv
+http://streamer-hls.fregat.net/hls/dneprtv.m3u8
 #EXTINF:-1, Бартоломео
 http://streamer-hls.fregat.net/hls/cam1.m3u8
 #EXTINF:-1, Гениуне ТВ
 http://streamer-hls.fregat.net/hls/geniunetv.m3u8
 #EXTINF:-1, Горизонт ТВ
 http://streamer-hls.fregat.net/hls/horizont.m3u8
-#EXTINF:-1, Дача
-http://streamer-hls.fregat.net/hls/dacha.m3u8
-#EXTINF:-1, Дача HD
-http://streamer-hls.fregat.net/hls/dachahd.m3u8
 #EXTINF:-1, Детский Мир
 http://streamer-hls.fregat.net/hls/detskiymir.m3u8
 #EXTINF:-1, Детинец
@@ -227,8 +215,6 @@ http://streamer-hls.fregat.net/hls/kuskus.m3u8
 http://streamer-hls.fregat.net/hls/miledy.m3u8
 #EXTINF:-1, Надія
 http://streamer-hls.fregat.net/hls/nadegda.m3u8
-#EXTINF:-1, Наука
-http://streamer-hls.fregat.net/hls/naukaua.m3u8
 #EXTINF:-1, Новый мост
 http://streamer-hls.fregat.net/hls/cam2.m3u8
 #EXTINF:-1, ОСТ/ВЕСТ
@@ -253,21 +239,13 @@ http://streamer-hls.fregat.net/hls/tv1000ruskino.m3u8
 http://streamer-hls.fregat.net/hls/kievtv.m3u8
 #EXTINF:-1, Телевсесвiт
 http://streamer-hls.fregat.net/hls/televsesvit.m3u8
-#EXTINF:-1, Терра
-http://streamer-hls.fregat.net/hls/terra.m3u8
-#EXTINF:-1, Трофей HD
-http://streamer-hls.fregat.net/hls/trofeyhd.m3u8
 #EXTINF:-1, УА:Крым
 http://streamer-hls.fregat.net/hls/uakrym.m3u8
-#EXTINF:-1, Фауна
-http://streamer-hls.fregat.net/hls/fauna.m3u8
 #EXTINF:-1, Цирк
 http://streamer-hls.fregat.net/hls/cam3.m3u8
 #EXTINF:-1, ЧП Инфо
 http://streamer-hls.fregat.net/hls/chpinfo.m3u8
 #EXTINF:-1, Эко ТВ
 http://streamer-hls.fregat.net/hls/ecotv.m3u8
-#EXTINF:-1, Эпоха
-http://streamer-hls.fregat.net/hls/epoque.m3u8
 #EXTINF:-1, Южная Волна
 http://streamer-hls.fregat.net/hls/swave.m3u8
