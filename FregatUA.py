@@ -24,7 +24,6 @@ class Scraper:
 
     def Channels(self):
         LL=[]
-        logo = ''
         group = self.source
         http = utils.getURL(self.plist)
         http = utils.clean_m3u(http)
@@ -32,7 +31,8 @@ class Scraper:
 
         for cnLine in L:
             try:
-                tail = cnLine.partition(',')[2]
+                data, group, logo = utils.group_logo_m3u(cnLine)
+                tail = data.partition(',')[2]
                 if 'http' in tail:
                     head,sep,tail = tail.partition('http')
                     title = head.strip()
