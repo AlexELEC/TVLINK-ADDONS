@@ -1,87 +1,85 @@
-#EXTM3U url-tvg="http://iptvx.one/EPG_LITE"
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/1plus1.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058965289.png",1+1
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058965289.png",1+1
 http://streamer-hls.fregat.net/hls/1plus1.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/2plus2.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1499675431717.png",2+2
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1499675431717.png",2+2
 http://streamer-hls.fregat.net/hls/2plus2.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/34canal.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065519695.png",34 канал
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065519695.png",34 канал
 http://streamer-hls.fregat.net/hls/34canal.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/enterfilm.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454060006978.png",Enter Фильм
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454060006978.png",Enter Фильм
 http://streamer-hls.fregat.net/hls/enterfilm.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/espresso.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522649540278.png",Espresso TV
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522649540278.png",Espresso TV
 http://streamer-hls.fregat.net/hls/espresso.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/euronews.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059844416.png",EuroNews
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059844416.png",EuroNews
 http://streamer-hls.fregat.net/hls/euronews.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202//hls/gulli.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066691735.png",Gulli
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066691735.png",Gulli
 http://streamer-hls.fregat.net/hls/gulli.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/ictv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1453971555854.png",ICTV
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1453971555854.png",ICTV
 http://streamer-hls.fregat.net/hls/ictv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/k2.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059961105.png",K2
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059961105.png",K2
 http://streamer-hls.fregat.net/hls/k2.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/mcmtop.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066528025.png",MCM TOP
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066528025.png",MCM TOP
 http://streamer-hls.fregat.net/hls/mcmtop.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/mtvrocks.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1633519296696.png",MTV Rocks
-http://streamer-hls.fregat.net/hls/mtvrocks.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/musicbox.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066303059.png",MusicBox Украина
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066303059.png",MusicBox Украина
 http://streamer-hls.fregat.net/hls/musicbox.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/nickelodeon.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454341726209.png",Nickelodeon
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454341726209.png",Nickelodeon
 http://streamer-hls.fregat.net/hls/nickelodeon.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/otv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065622993.png",OTV Music
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065622993.png",OTV Music
 http://streamer-hls.fregat.net/hls/otv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/tiji.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342137253.png",TiJi
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342137253.png",TiJi
 http://streamer-hls.fregat.net/hls/tiji.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/travel.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1499843086366.png",Travel Channel
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1499843086366.png",Travel Channel
 http://streamer-hls.fregat.net/hls/travel.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/viasatnature.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058988206.png",Viasat Nature
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058988206.png",Viasat Nature
 http://streamer-hls.fregat.net/hls/viasatnature.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/viasatsport.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454060074552.png",Viasat Sport
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454060074552.png",Viasat Sport
 http://streamer-hls.fregat.net/hls/viasatsport.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/viasatsporthd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061456901.png",Viasat Sport HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061456901.png",Viasat Sport HD
 http://streamer-hls.fregat.net/hls/viasatsporthd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/zoom.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438129766.png",Zoom
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438129766.png",Zoom
 http://streamer-hls.fregat.net/hls/zoom.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/bigoudi.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322903581.png",Бигуди
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322903581.png",Бигуди
 http://streamer-hls.fregat.net/hls/bigoudi.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/vintage.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322974631.png",Винтаж ТВ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322974631.png",Винтаж ТВ
 http://streamer-hls.fregat.net/hls/vintage.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/glas.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323023519.png",Глас
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323023519.png",Глас
 http://streamer-hls.fregat.net/hls/glas.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/inter.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1453974491797.png",Интер
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1453974491797.png",Интер
 http://streamer-hls.fregat.net/hls/inter.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/k1.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059914233.png",К1
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454059914233.png",К1
 http://streamer-hls.fregat.net/hls/k1.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/m1.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342045465.png",М1
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342045465.png",М1
 http://streamer-hls.fregat.net/hls/m1.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438307638.png",М2 Эстрада
 http://streamer-hls.fregat.net/hls/m2.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/malyatko.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342162781.png",Малятко
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342162781.png",Малятко
 http://streamer-hls.fregat.net/hls/malyatko.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.4/hls/ntn.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061644263.png",НТН
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061644263.png",НТН
 http://streamer-hls.fregat.net/hls/ntn.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/24news.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066455164.png",Новости 24
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454066455164.png",Новости 24
 http://streamer-hls.fregat.net/hls/24news.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/novy.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058895253.png",Новый
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058895253.png",Новый
 http://streamer-hls.fregat.net/hls/novy.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/rada.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342065231.png",Парламентский канал Рада
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454342065231.png",Парламентский канал Рада
 http://streamer-hls.fregat.net/hls/rada.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/1delovoy.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1615539881346.png",Первый деловой
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1615539881346.png",Первый деловой
 http://streamer-hls.fregat.net/hls/1delovoy.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/piksel.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065551804.png",Пиксель
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065551804.png",Пиксель
 http://streamer-hls.fregat.net/hls/piksel.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/plusplus.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438243068.png",ПлюсПлюс
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438243068.png",ПлюсПлюс
 http://streamer-hls.fregat.net/hls/plusplus.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/stb.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058938034.png",СТБ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058938034.png",СТБ
 http://streamer-hls.fregat.net/hls/stb.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/solnce.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323106933.png",Солнце
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323106933.png",Солнце
 http://streamer-hls.fregat.net/hls/solnce.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061871964.png",ТВ1000
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061871964.png",ТВ1000
 http://streamer-hls.fregat.net/hls/tv1000.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tet.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1568887386808.png",ТЕТ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1568887386808.png",ТЕТ
 http://streamer-hls.fregat.net/hls/tet.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/mega.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322933126.png",ТК Мега
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454322933126.png",ТК Мега
 http://streamer-hls.fregat.net/hls/mega.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/unian.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1462950471650.png",Униан
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1462950471650.png",Униан
 http://streamer-hls.fregat.net/hls/unian.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/shoptv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454324898647.png",Шоппинг ТВ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454324898647.png",Шоппинг ТВ
 http://streamer-hls.fregat.net/hls/shoptv.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1486369819606.png",#НАШ канал HD
 http://streamer-hls.fregat.net/hls/nashe.m3u8
@@ -89,19 +87,19 @@ http://streamer-hls.fregat.net/hls/nashe.m3u8
 http://streamer-hls.fregat.net/hls/nashe.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1464616189118.png",#НАШЕ Music HD
 http://streamer-hls.fregat.net/hls/nmusichd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/11chanell.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331237211.png",11 канал
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331237211.png",11 канал
 http://streamer-hls.fregat.net/hls/11chanell.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1613745353393.png",36,6
 http://streamer-hls.fregat.net/hls/366.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/360tunebox.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454325697938.png",360 TuneBOX
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454325697938.png",360 TuneBOX
 http://streamer-hls.fregat.net/hls/360tunebox.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1592569440471.png",4 канал
 http://streamer-hls.fregat.net/hls/rti.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1460642375710.png",41 канал (Днепр)
 http://streamer-hls.fregat.net/hls/41channel.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/51chanell.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331550302.png",51 канал (Днепр)
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331550302.png",51 канал (Днепр)
 http://streamer-hls.fregat.net/hls/51chanell.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/provse.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522150749003.png",8 channel
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522150749003.png",8 channel
 http://streamer-hls.fregat.net/hls/provse.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1455557103157.png",9 канал (Днепр)
 http://streamer-hls.fregat.net/hls/9channel.m3u8
@@ -111,41 +109,43 @@ http://streamer-hls.fregat.net/hls/bolt.m3u8
 http://streamer-hls.fregat.net/hls/blegal.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1552309850225.png",Blue Hustler
 http://streamer-hls.fregat.net/hls/bhustler.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/docuboxhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331128128.png",DocuBOX HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331128128.png",DocuBOX HD
 http://streamer-hls.fregat.net/hls/docuboxhd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/ducktv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454507240338.png",Duck TV
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454507240338.png",Duck TV
 http://streamer-hls.fregat.net/hls/ducktv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/rumusic.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454678947994.png",EU music
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454678947994.png",EU music
 http://streamer-hls.fregat.net/hls/rumusic.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522303007395.png",Epic Drama HD
 http://streamer-hls.fregat.net/hls/edrama.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/fashionbox.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331187105.png",FashionBOX
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331187105.png",FashionBOX
 http://streamer-hls.fregat.net/hls/fashionbox.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/fastfunhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331168889.png",Fast&FunBOX HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331168889.png",Fast&FunBOX HD
 http://streamer-hls.fregat.net/hls/fastfunhd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/fightboxhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331149160.png",FightBOX HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331149160.png",FightBOX HD
 http://streamer-hls.fregat.net/hls/fightboxhd.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1613745297896.png",Film Ua Drama
 http://streamer-hls.fregat.net/hls/filmuadrama.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/filmbox.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454325678718.png",FilmBox
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454325678718.png",FilmBox
 http://streamer-hls.fregat.net/hls/filmbox.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/fbarthouse.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331107706.png",FilmBox ArtHouse
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331107706.png",FilmBox ArtHouse
 http://streamer-hls.fregat.net/hls/fbarthouse.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/foodhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1466753204971.png",Food Network
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1466753204971.png",Food Network
 http://streamer-hls.fregat.net/hls/foodhd.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1486472451667.png",ID Fashion HD
 http://streamer-hls.fregat.net/hls/idfashion.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1524553071038.png",Lanet Play HD
 http://streamer-hls.fregat.net/hls/lanetplay.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/mtvhits.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1633519345413.png",MTV Hits
-http://streamer-hls.fregat.net/hls/mtvhits.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/mvideo.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1459342369350.png",MostVideo.TV
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1459342369350.png",MostVideo.TV
 http://streamer-hls.fregat.net/hls/mvideo.m3u8
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/",NIKI JUNIOR HD
+http://streamer-hls.fregat.net/hls/nikijuniorhd.m3u8
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/",NIKI KIDS HD
+http://streamer-hls.fregat.net/hls/nikikidshd.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1486369904432.png",Nautical HD
 http://streamer-hls.fregat.net/hls/nautical.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1455284363233.png",News Network
 http://streamer-hls.fregat.net/hls/newsnet.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/nickjr.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454332482039.png",Nick Junior
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454332482039.png",Nick Junior
 http://streamer-hls.fregat.net/hls/nickjr.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1613745539467.png",Nick Toons
 http://streamer-hls.fregat.net/hls/nitoons.m3u8
@@ -163,39 +163,39 @@ http://streamer-hls.fregat.net/hls/sonata.m3u8
 http://streamer-hls.fregat.net/hls/starcinema.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1510234215486.png",Star Family
 http://streamer-hls.fregat.net/hls/starfamily.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000action.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061889734.png",TV1000 Action
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454061889734.png",TV1000 Action
 http://streamer-hls.fregat.net/hls/tv1000action.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202//hls/uatv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1460444077489.png",UA TV
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1460444077489.png",UA TV
 http://streamer-hls.fregat.net/hls/uatv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/culture.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522305189873.png",UA:Культура
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522305189873.png",UA:Культура
 http://streamer-hls.fregat.net/hls/culture.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.254.3/hls/1nacionalny.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522305070620.png",UA:Перший
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522305070620.png",UA:Перший
 http://streamer-hls.fregat.net/hls/1nacionalny.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000comedyhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348626814.png",VIP COMEDY HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348626814.png",VIP COMEDY HD
 http://streamer-hls.fregat.net/hls/tv1000comedyhd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000megahithd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348854018.png",VIP MEGAHIT HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348854018.png",VIP MEGAHIT HD
 http://streamer-hls.fregat.net/hls/tv1000megahithd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000premiumhd.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348744609.png",VIP PREMIERE HD
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1509348744609.png",VIP PREMIERE HD
 http://streamer-hls.fregat.net/hls/tv1000premiumhd.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/viasatexplorer.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058910330.png",Viasat Explorer
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058910330.png",Viasat Explorer
 http://streamer-hls.fregat.net/hls/viasatexplorer.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/viasathistory.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058977550.png",Viasat History
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454058977550.png",Viasat History
 http://streamer-hls.fregat.net/hls/viasathistory.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1599463952381.png",XSport
 http://streamer-hls.fregat.net/hls/xsport.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1552572323017.png",ZeeTv
 http://streamer-hls.fregat.net/hls/zeetv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/mtvdance.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1633519324602.png",club MTV
-http://streamer-hls.fregat.net/hls/mtvdance.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1624016994031.png",dnipro.tv
 http://streamer-hls.fregat.net/hls/dneprtv.m3u8
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/",Апостроф ТВ
+http://streamer-hls.fregat.net/hls/apostroftv.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1560942155476.png",Бартоломео
 http://streamer-hls.fregat.net/hls/cam1.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1617281636918.png",Гениуне ТВ
 http://streamer-hls.fregat.net/hls/geniunetv.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1486719710329.png",Горизонт ТВ
 http://streamer-hls.fregat.net/hls/horizont.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/detskiymir.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065900264.png",Детский Мир
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454065900264.png",Детский Мир
 http://streamer-hls.fregat.net/hls/detskiymir.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1487157435982.png",Детинец
 http://streamer-hls.fregat.net/hls/ditinec.m3u8
@@ -207,14 +207,16 @@ http://streamer-hls.fregat.net/hls/etnohd.m3u8
 http://streamer-hls.fregat.net/hls/irt.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1487604316056.png",Караван ТВ
 http://streamer-hls.fregat.net/hls/karavan.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/kvartal.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1484038539888.png",Квартал ТВ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1484038539888.png",Квартал ТВ
 http://streamer-hls.fregat.net/hls/kvartal.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1613745419680.png",Кус Кус
 http://streamer-hls.fregat.net/hls/kuskus.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454332654680.png",Миледи ТВ
 http://streamer-hls.fregat.net/hls/miledy.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/nadegda.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323081782.png",Надія
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454323081782.png",Надія
 http://streamer-hls.fregat.net/hls/nadegda.m3u8
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/",Настоящее время HD
+http://streamer-hls.fregat.net/hls/currenttime.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1534838553950.png",Новый мост
 http://streamer-hls.fregat.net/hls/cam2.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1553259673301.png",ОСТ/ВЕСТ
@@ -229,11 +231,11 @@ http://streamer-hls.fregat.net/hls/oboztv.m3u8
 http://streamer-hls.fregat.net/hls/open.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1483438020213.png",Первый западный
 http://streamer-hls.fregat.net/hls/lvivtv.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/tonis.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522649676930.png",Прямий
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1522649676930.png",Прямий
 http://streamer-hls.fregat.net/hls/tonis.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/historyru.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454332622137.png",Тhe History Channel
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454332622137.png",Тhe History Channel
 http://streamer-hls.fregat.net/hls/historyru.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.204/hls/tv1000ruskino.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1498720187769.png",ТВ1000 World Kino
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1498720187769.png",ТВ1000 World Kino
 http://streamer-hls.fregat.net/hls/tv1000ruskino.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1455192674802.png",ТРК Киев
 http://streamer-hls.fregat.net/hls/kievtv.m3u8
@@ -243,9 +245,9 @@ http://streamer-hls.fregat.net/hls/televsesvit.m3u8
 http://streamer-hls.fregat.net/hls/uakrym.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1534838553950.png",Цирк
 http://streamer-hls.fregat.net/hls/cam3.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.202/hls/chpinfo.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331459953.png",ЧП Инфо
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331459953.png",ЧП Инфо
 http://streamer-hls.fregat.net/hls/chpinfo.m3u8
-#EXTINF:-1 catchup="default" catchup-days="7" catchup-source="http://212.115.255.201/hls/ecotv.m3u8?pauselive=&utcstart=${start}&closefull=&reason=seek" tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331624351.png",Эко ТВ
+#EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1454331624351.png",Эко ТВ
 http://streamer-hls.fregat.net/hls/ecotv.m3u8
 #EXTINF:-1 tvg-logo="http://212.115.255.109:80/images/c90x90/broadcastChannel1518700182970.png",Южная Волна
 http://streamer-hls.fregat.net/hls/swave.m3u8
