@@ -33,8 +33,8 @@ class Scraper:
     def Channels(self):
         LL=[]
         group = self.source
-        http = utils.getURL(self.plist)
-        soup = BeautifulSoup(http, "xml")
+        http = utils.getURL(self.plist, headers=self.headers)
+        soup = BeautifulSoup(http, "html.parser")
         titles = soup.find_all('bcname')
         links = soup.find_all('url')
         logos = soup.find_all('logo')
