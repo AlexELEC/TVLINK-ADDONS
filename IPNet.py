@@ -33,7 +33,6 @@ class Scraper:
                     ids = utils.title_to_crc32(title)
                     logo = cnLine["icon_url"]
                     url = f"{self.link}{lnk}"
-                    print (title, url)
                     LL.append((ids, title, group, url, logo))
                 else: continue
             except: pass
