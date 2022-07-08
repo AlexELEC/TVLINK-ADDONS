@@ -19,7 +19,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
-        logo = 'https://www.clipartmax.com/png/full/274-2742385_yes-i-am-18-18-adults-only.png'
+        logo = 'https://www.logolynx.com/images/logolynx/80/8029be5f3fb7e3859600ae770aae95fc.png'
         group = "Эротика"
         http = utils.getURL(self.plist, headers=self.headers)
         http = utils.clean_m3u(http)
