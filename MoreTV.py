@@ -7,12 +7,14 @@ sys.path.append(root_dir)
 
 import utils
 
+FREE_ONLY = True
+
 class Scraper:
     def __init__(self):
         self.source = 'MoreTV'
         self.link = f'ext:{self.source}:'
         self.api_url = 'https://more.tv/api/web/channels'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0',
+        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0',
                         'Referer': 'https://player.mediavitrina.ru/'}
 
     def getHeaders(self):
@@ -25,12 +27,15 @@ class Scraper:
 
         for cnLine in L:
             try:
+                if FREE_ONLY:
+                    isAvailable = cnLine["availability"]["isAvailable"]
+                    if not isAvailable: continue
                 title = cnLine["title"]
                 logo = cnLine["logo"]
                 player = cnLine["vitrinaAppleTVSDK"]
                 ids = utils.title_to_crc32(title)
                 url = f"{self.link}{player}"
-                LL.append((ids, title, self.source, url, logo))
+                LL.append((ids, title, "Общие", url, logo))
             except: pass
 
         if LL:
