@@ -12,7 +12,7 @@ class Scraper:
         self.source = 'IPNet'
         self.plist = 'http://api.tv.ipnet.ua/api/v2/site/channels'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'}
+        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0'}
 
     def getHeaders(self):
         return self.headers
