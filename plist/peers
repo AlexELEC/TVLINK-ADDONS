@@ -65,13 +65,13 @@ http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?offset=3
 #EXTINF:-1,Viasat Nature
 http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?offset=3
-#EXTINF:-1,VIP Comedy
+#EXTINF:-1,Viju+ Comedy
 http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1,VIP Megahit
+#EXTINF:-1,Viju+ Megahit
 http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1,VIP Premiere
+#EXTINF:-1,Viju+ Premiere
 http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1,VIP Serial HD
+#EXTINF:-1,Viju+ Serial
 http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?offset=3
 #EXTINF:-1,Zooпаpк
 http://api.peers.tv/timeshift/zoopark/126/playlist.m3u8?offset=3

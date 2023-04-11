@@ -317,13 +317,13 @@ http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?offset=3
 http://api.peers.tv/timeshift/tv1000/16/playlist.m3u8?offset=3
 #EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2017/08/14/102078/102078514.png" group-title="Фильмовые",TVXXI
 http://api.peers.tv/timeshift/tv21/16/playlist.m3u8?offset=3
-#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556467.png" group-title="Фильмовые" logo="http://teleprogramma.tv/images/vip_serial.png" channelId="3894" tvg-id="vip-serial",VIP Serial HD
+#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556467.png" group-title="Фильмовые" logo="http://teleprogramma.tv/images/vip_serial.png" channelId="3894" tvg-id="vip-serial",Viju+ Serial HD
 http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556428.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipc.png" channelId="607" tvg-id="vip-comedy",ViP Comedy HD
+#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556428.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipc.png" channelId="607" tvg-id="vip-comedy",Viju+ Comedy HD
 http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556441.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipm.png" channelId="606" tvg-id="vip-megahit",ViP Megahit HD
+#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556441.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipm.png" channelId="606" tvg-id="vip-megahit",Viju+ Megahit HD
 http://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?offset=3
-#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556454.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipp.png" channelId="605" tvg-id="vip-premiere",ViP Premiere HD
+#EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2019/07/18/165556/165556454.png" group-title="Фильмовые" logo="http://infoua.biz/image/tv/stream/vipp.png" channelId="605" tvg-id="vip-premiere",Viju+ Premiere HD
 http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?offset=3
 #EXTINF:-1 tvg-logo="https://s1.peers.tv/data/illustrations/ills/2017/10/27/107313/107313237.png" group-title="Фильмовые" logo="https://runigma.com.ua/EPG/png/360e/1_0_16_2C3_7_70_1680000_0_0_0.png" channelId="253" tvg-id="zee-tv",Zee TV
 http://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8?offset=3
