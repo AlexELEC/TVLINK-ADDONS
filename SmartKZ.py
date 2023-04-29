@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, json
+import requests
 
 root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
@@ -19,8 +20,8 @@ class Scraper:
 
     def Channels(self):
         LL=[]
-        http = utils.getURL(self.plist, headers=self.headers)
-        L = json.loads(http)['channels']
+        http = requests.get(self.plist, headers=self.headers, verify=False)
+        L = json.loads(http.text)['channels']
 
         for cnLine in L:
             try:
