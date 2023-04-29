@@ -30,7 +30,7 @@ class Scraper:
                 if title and 'http' in lnk:
                     title = title.replace('.', '').strip()
                     ids = utils.title_to_crc32(title)
-                    url = f'{self.link}{lnk}'
+                    url = f'{self.link}{lnk}.m3u8'
                     if cnLine['posters']: logo = cnLine['posters']['default']['url']
                     else: logo = ''
                     LL.append((ids, title, self.source, url, logo))
