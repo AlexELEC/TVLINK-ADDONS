@@ -7,7 +7,9 @@ from base64 import b64decode
 root_dir = os.path.dirname(sys.argv[0])
 cache_dir = os.path.join(root_dir, 'cache')
 sys.path.append(root_dir)
+
 import utils
+from utils import DEF_BROWSER
 
 EMAIL = "mail@email.com"
 PASSW = "password"
@@ -32,7 +34,7 @@ DEV_ID = getDevID()
 
 API_URL = 'https://api.youtv.com.ua'
 
-HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0',
+HEADERS = {'User-Agent': DEF_BROWSER,
            'Accept': 'application/vnd.youtv.v8+json',
            'Referer': 'https://youtv.ua/',
            'Device-Uuid': DEV_ID}
