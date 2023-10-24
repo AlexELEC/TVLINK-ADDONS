@@ -12,7 +12,13 @@ class Scraper:
         self.source = 'InetcomTV'
         self.plist = 'http://api4.inetcom.tv/channel/all'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0'}
+        self.headers = {'User-Agent': 'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.140 Mobile Safari/537.36',
+                        'X-Client-Info': 'AndroidPhone 50327582',
+                        'X-Client-Model': 'OnePlus A5010',
+                        'X-Device': '4',
+                        'Referer': 'http://iptv.inetcom.ru/phone_app_v2/index.html?platform=AndroidPhone&serial=50327582',
+                        'X-Requested-With': 'tv.inetcom.phone2',
+                       }
 
     def getHeaders(self):
         return self.headers
