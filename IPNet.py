@@ -6,13 +6,14 @@ root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
 
 import utils
+from utils import DEF_BROWSER
 
 class Scraper:
     def __init__(self):
         self.source = 'IPNet'
         self.plist = 'http://api.tv.ipnet.ua/api/v2/site/channels'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': '*/*',
                         'Accept-Language': 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
                         'Referer': 'https://tv.ipnet.ua/'

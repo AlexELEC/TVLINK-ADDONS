@@ -8,7 +8,7 @@ root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
 
 import utils
-from utils import logger
+from utils import logger, DEF_BROWSER
 
 # languages: "ta", "kn", "pa", "bn", "en", "ml", "mr", "gu", "te", "hi", "hr", "or", "as", "ru"
 # example: LANG = 'en,ru,hi'
@@ -22,7 +22,7 @@ class Scraper:
         self.source = 'Zee5Free'
         self.link = f'ext:{self.source}:'
         self.device_id = str(uuid4())
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'application/json, text/plain, */*',
                         'Accept-Language': 'en-US,en;q=0.9',
                         'Accept-Encoding': 'gzip, deflate, br',
@@ -31,7 +31,7 @@ class Scraper:
         self.country = self.get_country()
 
     def getHeaders(self):
-        return {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0',
+        return {'User-Agent': DEF_BROWSER,
                 'Accept': '*/*',
                 'Accept-Language': 'en-US,en;q=0.9',
                 'Accept-Encoding': 'gzip, deflate, br',

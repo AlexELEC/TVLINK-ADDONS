@@ -6,6 +6,7 @@ root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
 
 import utils
+from utils import DEF_BROWSER
 
 FREE_ONLY = True
 
@@ -14,7 +15,7 @@ class Scraper:
         self.source = 'MoreTV'
         self.link = f'ext:{self.source}:'
         self.api_url = 'https://more.tv/api/web/channels'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Referer': 'https://player.mediavitrina.ru/'}
 
     def getHeaders(self):

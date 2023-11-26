@@ -13,6 +13,7 @@ sys.path.insert(0, ssv_file)
 sys.path.insert(0, bs4_file)
 
 import utils
+from utils import DEF_BROWSER
 from bs4 import BeautifulSoup
 
 class Scraper:
@@ -20,7 +21,7 @@ class Scraper:
         self.source = 'HDgo'
         self.site = 'http://hd9.hdgo.site'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
                         'Accept-Language': 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
                         'Referer': self.site}
@@ -30,9 +31,9 @@ class Scraper:
 
     def Channels(self):
         LL = []
-        for cnt in range(1, 36):
-            if cnt == 1: sUrl = f"{self.site}/channels/"
-            else: sUrl = f"{self.site}/channels/page/{cnt}/"
+        for cnt in range(1, 39):
+            if cnt == 1: sUrl = f"{self.site}"
+            else: sUrl = f"{self.site}/page/{cnt}/"
             http = utils.getURL(sUrl, headers=self.headers)
             soup = BeautifulSoup(http, "html.parser")
 

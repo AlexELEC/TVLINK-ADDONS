@@ -13,6 +13,7 @@ sys.path.insert(0, ssv_file)
 sys.path.insert(0, bs4_file)
 
 import utils
+from utils import DEF_BROWSER
 from bs4 import BeautifulSoup
 
 class Scraper:
@@ -20,7 +21,7 @@ class Scraper:
         self.source = 'TelikLive'
         self.site = 'http://telik.live'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
                         'Referer': 'http://telik.live/'}
 
@@ -31,6 +32,7 @@ class Scraper:
         LL=[]
         http = utils.getURL(self.site, headers=self.headers)
         soup = BeautifulSoup(http, "html.parser")
+        #print(soup.prettify())
 
         for tag in soup.find_all('td', attrs={"style": "text-align: center;"} ):
             href = None
@@ -39,8 +41,9 @@ class Scraper:
             if not href: continue
 
             http = utils.getURL(href, headers=self.headers)
+            if not '<iframe allowfullscreen="" name="frame" src="' in http: continue
             iframe = utils.mfind(http, '<iframe allowfullscreen="" name="frame" src="', '.php"')
-            if not "cdntelik.ru" in iframe: continue
+            if not "cdntvmedia.com" in iframe: continue
 
             url = f"{self.link}{iframe}.php"
             try:

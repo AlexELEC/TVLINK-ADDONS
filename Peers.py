@@ -1,54 +1,69 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, time
-from urllib.request import Request, urlopen
-from urllib import parse
+import os, sys, re
+import requests, json
+from copy import copy
+from time import time
 
 root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
 
 import utils
-
-ttm = 0
-token = ''
-
-def postURL(url, data, headers=None):
-    request = Request(url, data=data)
-    if headers:
-        for h in headers.keys(): request.add_header(h, headers[h])
-    with urlopen(request) as context:
-        response = context.read()
-    return response.decode('utf-8')
+from utils import DEF_BROWSER
 
 class Scraper:
     def __init__(self):
         self.source = 'Peers'
         self.site = 'https://peers.tv/'
-        self.plist = 'https://raw.githubusercontent.com/AlexELEC/TVLINK-ADDONS/main/plist/peers'
-        self.link = 'ext:{0}:'.format(self.source)
-        self.headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 8.0.1;)', 'Referer': self.site}
+        self.link = f'ext:{self.source}:'
+        self.api = 'http://api.peers.tv'
+        self.access_token = None
+        self.time_token = 0
+        self.headers = {'User-Agent': DEF_BROWSER,
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'Referer': self.site}
 
     def getHeaders(self):
         return self.headers
 
+    def getToken(self):
+        if not self.access_token or time() - self.time_token > 3600:
+            data = {"grant_type": "inetra:anonymous", "client_id": "29783051", "client_secret": "b4d4eb438d760da95f0acb5bc6b5c760"}
+            http = requests.post(f"{self.api}/auth/2/token", data=data, headers=self.headers)
+            http = json.loads(http.text)
+            self.access_token = http["access_token"]
+            self.time_token = time()
+
     def Channels(self):
         LL=[]
-        logo = ''
-        group = self.source
-        http = utils.getURL(self.plist)
-        http = utils.clean_m3u(http)
+        LIST_URL = []
+        self.getToken()
+        hdr_head = copy(self.headers)
+        hdr_head.update({'Client-Capabilities': 'paid_content,adult_content'})
+        hdr_head.update({'Authorization': f"Bearer {self.access_token}"})
+        http = requests.get(f"{self.api}/iptv/2/playlist.m3u", headers=hdr_head)
+        http = utils.clean_m3u(http.text, srcName=self.source)
         L = http.splitlines()
 
         for cnLine in L:
             try:
-                tail = cnLine.partition(',')[2]
+                data, grp, logo = utils.group_logo_m3u(cnLine)
+                grp = utils.replaceGRP(grp, self.source)
+                tail = data.partition(',')[2]
+                if 'embed:?url=' in tail: continue
                 if 'http' in tail:
-                    head,sep,tail = tail.partition('http')
-                    title = head.strip()
-                    ids = utils.title_to_crc32(title)
-                    url = self.link + (sep+tail).strip()
-                    LL.append((ids, title, group, url, logo))
-                else: continue  
+                    head, sep, tail = tail.partition('http')
+                    url = None
+                    try:
+                        url = re.search('/streaming/(.*?)/playlist.m3u8', tail).group(1)
+                        url = url[:url.rfind('/')]
+                    except: continue
+                    if url and url not in LIST_URL:
+                        LIST_URL.append(url)
+                        title = head.strip()
+                        ids = utils.title_to_crc32(title)
+                        url = f"{self.link}{self.api}/timeshift/{url}/playlist.m3u8?offset=1"
+                        LL.append((ids, title, grp, url, logo))
             except: pass
 
         if LL:
@@ -56,14 +71,8 @@ class Scraper:
             utils.ch_inputs_DB(self.source, LL)
 
     def getLink(self, lnk):
-        global ttm, token
-        if token == '' or time.time() - ttm > 3600:
-            api_url = 'http://api.peers.tv/auth/2/token'
-            data = b'grant_type=inetra%3Aanonymous&client_id=29783051&client_secret=b4d4eb438d760da95f0acb5bc6b5c760'
-            self.headers.update({'Content-Type': 'application/x-www-form-urlencoded'})
-            headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-            http = postURL(api_url, data, headers)
-            token = utils.mfind(http, '"access_token":"', '","token_type')
-            ttm = time.time()
-        url = '{0}&token={1}'.format(lnk, token)
+        self.getToken()
+        url = ''
+        if self.access_token:
+            url = f'{lnk}&token={self.access_token}'
         return url
