@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 class Scraper:
     def __init__(self):
         self.source = 'SmotriOnly'
-        self.site = 'http://smotrite.only-tv.org'
+        self.site = 'https://online-tv.live'
         self.link = f'ext:{self.source}:'
         self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -34,17 +34,15 @@ class Scraper:
         http = requests.get(self.site, headers=self.headers)
         soup = BeautifulSoup(http.text, "html.parser")
 
-        for tag in soup.find_all('td', attrs={"style": "text-align: center; position: relative;"} ):
-            href = None
+        for tag in soup.find_all( 'td', attrs={"style": "text-align: center;"} ):
             try: href = self.site + tag.find('a').get('href')
-            except: continue
+            except: href = None
             if not href: continue
 
-            http = utils.getURL(href, headers=self.headers, timeout=5)
-            iframe = re.search(r'http://cdntvpotok\.com/.*\.php', http)
+            http = utils.getURL(href, headers=self.headers, timeout=10)
+            iframe = re.search(r'https://cdniptvpotok\.com/.*\.php', http)
             if not iframe: continue
             iframe = iframe.group(0)
-
             url = f"{self.link}{iframe}"
             try:
                 img = self.site + tag.find('img').get('src')
