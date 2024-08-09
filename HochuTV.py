@@ -13,14 +13,15 @@ sys.path.insert(0, ssv_file)
 sys.path.insert(0, bs4_file)
 
 import utils
+from utils import DEF_BROWSER
 from bs4 import BeautifulSoup
 
 class Scraper:
     def __init__(self):
-        self.source = 'Hochu'
+        self.source = 'HochuTV'
         self.site = 'http://hochu.tv'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0',
+        self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
                         'Accept-Language': 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
                         'Referer': self.site}
@@ -37,8 +38,8 @@ class Scraper:
             try:
                 title = tag.text.strip()
                 ids = utils.title_to_crc32(title)
-                url = self.link + self.site + tag.get('href')
-                img = self.site + tag.find('img').get('src')
+                url = f"{self.link}{self.site}{tag.get('href')}"
+                img = f"{self.site}{tag.find('img').get('src')}"
                 LL.append((ids, title, "Эротика", url, img))
             except: pass
 
