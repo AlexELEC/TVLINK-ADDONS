@@ -40,6 +40,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         http = requests.post(f"{self.api_url}/playlist", headers=self.headers)
         L = json.loads(http.text)["data"]
 
@@ -66,6 +67,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         http = requests.get(lnk, headers=self.headers)

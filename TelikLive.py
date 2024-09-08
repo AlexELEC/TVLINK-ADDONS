@@ -30,9 +30,9 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         http = utils.getURL(self.site, headers=self.headers)
         soup = BeautifulSoup(http, "html.parser")
-        #print(soup.prettify())
 
         for tag in soup.find_all('td', attrs={"style": "text-align: center;"} ):
             href = None
@@ -57,6 +57,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         http = utils.getURL(lnk, headers=self.headers)

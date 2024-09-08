@@ -31,7 +31,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
-
+        RET_STATUS = False
         group = 'Общие'
         http = utils.getURL(self.site, referer=self.site)
         soup = BeautifulSoup(http, "html.parser")
@@ -63,6 +63,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         http = utils.getURL(lnk, referer=self.site)

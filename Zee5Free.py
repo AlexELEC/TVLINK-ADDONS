@@ -52,6 +52,7 @@ class Scraper:
     def Channels(self):
         LL=[]
         IDS = []
+        RET_STATUS = False
         self.get_token(refresh=True)
         for group in GROUPS:
             grp = group
@@ -80,6 +81,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         self.get_token()

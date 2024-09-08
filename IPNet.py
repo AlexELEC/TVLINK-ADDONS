@@ -24,6 +24,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         group = "Украина"
         http = utils.getURL(self.plist, headers=self.headers)
         L = json.loads(http)["data"]["categories"][0]
@@ -45,6 +46,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         return lnk

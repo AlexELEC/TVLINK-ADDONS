@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-### import core, scrapers.VivatLive; tv=scrapers.VivatLive.Scraper(); tv.readToken()
-
 import os, sys, json, time
 import requests, re
 from uuid import uuid1
@@ -99,6 +97,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         self.getToken()
         headers = copy(self.headers)
         headers.update({'Accept': 'application/json, text/plain, */*'})
@@ -121,6 +120,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         self.getToken()

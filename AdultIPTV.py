@@ -19,6 +19,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         logo = 'https://www.logolynx.com/images/logolynx/80/8029be5f3fb7e3859600ae770aae95fc.png'
         group = "Эротика"
         http = utils.getURL(self.plist, headers=self.headers)
@@ -40,6 +41,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         return lnk

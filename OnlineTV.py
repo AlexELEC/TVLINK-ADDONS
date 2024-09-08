@@ -31,6 +31,7 @@ class Scraper:
 
     def Channels(self):
         LL=[]
+        RET_STATUS = False
         http = requests.get(f"{self.site}/kategorii.html", headers=self.headers)
         soup = BeautifulSoup(http.text, "html.parser")
         gr_tags = soup.find('ul', {'class': "nav-child unstyled small"})
@@ -55,6 +56,9 @@ class Scraper:
         if LL:
             # Loading a Tuple into a Database (source, Tuple)
             utils.ch_inputs_DB(self.source, LL)
+            RET_STATUS = True
+
+        return RET_STATUS
 
     def getLink(self, lnk):
         http = utils.getURL(lnk, headers=self.headers, timeout=5)
