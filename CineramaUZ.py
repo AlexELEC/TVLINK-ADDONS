@@ -27,7 +27,6 @@ class Scraper:
                 ids = utils.title_to_crc32(title)
                 url = f"{self.link}http://{chID}"
                 LL.append((ids, title, self.source, url, ''))
-                print (title, url)
             except:
                 pass
 
