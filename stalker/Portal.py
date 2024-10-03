@@ -11,10 +11,13 @@ from utils import StalkerPortal, ch_inputs_DB
 # only include Groups: INCLUDE_GROUP = ['UKRAINE', 'USA']
 INCLUDE_GROUP = []
 
+# disable channel logos: DISABLE_LOGOS = True
+DISABLE_LOGOS = False
+
 class Scraper:
     def __init__(self):
         self.source = Path(__file__).stem
-        self.portal = StalkerPortal(self.source, INCLUDE_GROUP)
+        self.portal = StalkerPortal(self.source, INCLUDE_GROUP, DISABLE_LOGOS)
 
     def getHeaders(self):
         return self.portal.headers
