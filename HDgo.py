@@ -29,6 +29,13 @@ class Scraper:
     def getHeaders(self):
         return self.headers
 
+    def blockURL(self, url):
+        chk_list = ("okkotv", ".mpd", "beetv.kz")
+        for cw in chk_list:
+            if cw in url:
+                return True
+        return False
+
     def Channels(self):
         LL = []
         RET_STATUS = False
@@ -63,11 +70,11 @@ class Scraper:
                         lst_url = ch_urls.split(' or ')
                         lst_url = list(set(lst_url))
                         for ul in lst_url:
-                            if "okkotv" in ul or ".mpd" in ul: continue
+                            if self.blockURL(ul): continue
                             lnk = f"{self.link}{ul}"
                             LL.append((ids, title, self.source, lnk, f"{self.site}{img}"))
                     else:
-                        if "okkotv" in ch_urls or ".mpd" in ch_urls: continue
+                        if self.blockURL(ul): continue
                         lnk = f"{self.link}{ch_urls}"
                         LL.append((ids, title, self.source, lnk, f"{self.site}{img}"))
                 except: pass
