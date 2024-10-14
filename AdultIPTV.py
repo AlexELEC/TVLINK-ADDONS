@@ -20,7 +20,7 @@ class Scraper:
     def Channels(self):
         LL=[]
         RET_STATUS = False
-        logo = 'https://www.logolynx.com/images/logolynx/80/8029be5f3fb7e3859600ae770aae95fc.png'
+        logo = 'https://media.info/l/o/6/6261.1471157192.png'
         group = "Эротика"
         http = utils.getURL(self.plist, headers=self.headers)
         http = utils.clean_m3u(http)
