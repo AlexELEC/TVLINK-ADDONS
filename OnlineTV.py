@@ -67,14 +67,12 @@ class Scraper:
         url = iframe.group(0)
 
         http = utils.getURL(url, headers=self.headers)
+        url = ''
         url = utils.mfind(http, 'id:"player", file:"', '"});')
-        if "tvcdnpotok.com" in url:
-            if ' or ' in url:
-                head,sep,tail = url.partition(' or ')
-                if "tvcdnpotok.com" in head:
-                    url = head
-                else:
-                    url = tail
-            return url
-        else:
-            return ''
+        if ' or ' in url:
+            urls = url.split(' or ')
+            for ur in urls:
+                if "tvcdnpotok.com" in ur:
+                    return ur
+            return urls[0]
+        return url
