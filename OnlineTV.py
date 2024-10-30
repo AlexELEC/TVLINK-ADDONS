@@ -65,14 +65,14 @@ class Scraper:
         iframe = re.search(r'https://cdniptvpotok\.com/.*\.php', http)
         if not iframe: return ''
         url = iframe.group(0)
-
         http = utils.getURL(url, headers=self.headers)
         url = ''
-        url = utils.mfind(http, 'id:"player", file:"', '"});')
-        if ' or ' in url:
-            urls = url.split(' or ')
-            for ur in urls:
-                if "tvcdnpotok.com" in ur:
-                    return ur
-            return urls[0]
+        if 'id:"player", file:"' in http:
+            url = utils.mfind(http, 'id:"player", file:"', '"});')
+            if ' or ' in url:
+                urls = url.split(' or ')
+                for ur in urls:
+                    if "tvcdnpotok.com" in ur:
+                        return ur
+                return urls[0]
         return url
