@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
 
 import os, sys
+from pathlib import Path
 
 root_dir = os.path.dirname(sys.argv[0])
 sys.path.append(root_dir)
 
 import utils
+from utils import DEF_BROWSER
 
 class Scraper:
     def __init__(self):
-        self.source = 'AdultIPTV'
+        self.source = Path(__file__).stem
         self.plist = 'http://adultiptv.net/chs.m3u'
         self.link = f'ext:{self.source}:'
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0'}
+        self.headers = {'User-Agent': DEF_BROWSER}
 
     def getHeaders(self):
         return self.headers
