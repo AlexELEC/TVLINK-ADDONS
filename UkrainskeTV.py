@@ -18,27 +18,29 @@ import utils
 from utils import DEF_BROWSER
 from bs4 import BeautifulSoup
 
+def getDATA():
+    http = requests.get("https://ukrainske.tv/tv", headers={'User-Agent': DEF_BROWSER})
+    token = utils.mfind(http.text, "'access_token': '", "',")
+    return token, http.text
+
+TOKEN = None
+
 class Scraper:
     def __init__(self):
         self.source = Path(__file__).stem
         self.site = 'https://ukrainske.tv/'
         self.link = f'ext:{self.source}:'
-        self.token = None
         self.headers = {'User-Agent': DEF_BROWSER,
                         'Referer': self.site}
 
     def getHeaders(self):
         return self.headers
 
-    def getToken(self):
-        http = requests.get(f"{self.site}/tv", headers=self.headers)
-        self.token = utils.mfind(http.text, "'access_token': '", "',")
-        return http.text
-
     def Channels(self):
+        global TOKEN
         LL=[]
         RET_STATUS = False
-        http = self.getToken()
+        TOKEN, http = getDATA()
         soup = BeautifulSoup(http, "html.parser")
 
         for tag in soup.find_all('div', attrs={"class": "channel", "data-islocked": ""}):
@@ -61,5 +63,6 @@ class Scraper:
         return RET_STATUS
 
     def getLink(self, lnk):
-        if not self.token: self.getToken()
-        return f"{lnk}?token={self.token}"
+        global TOKEN
+        if not TOKEN: TOKEN, _ = getDATA()
+        return f"{lnk}?token={TOKEN}"
