@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import os, sys
-import requests
+import requests, time
 from pathlib import Path
+from base64 import b64decode
 
 root_dir = os.path.dirname(sys.argv[0])
 libs_dir = os.path.join(root_dir, 'libs')
@@ -18,12 +19,21 @@ import utils
 from utils import DEF_BROWSER
 from bs4 import BeautifulSoup
 
+TOKEN = None
+TOKEN_TIME = 0
+
 def getDATA():
     http = requests.get("https://ukrainske.tv/tv", headers={'User-Agent': DEF_BROWSER})
     token = utils.mfind(http.text, "'access_token': '", "',")
-    return token, http.text
+    access_cut = token.split('.')
+    access_part = ''
+    for i in range( len(access_cut) - 1 ):
+        access_part += access_cut[i]
+    access_part = access_part + '=' * (4 - len(access_part) % 4) if len(access_part) % 4 != 0 else access_part
+    time_exp = b64decode(access_part).decode('utf-8')
+    time_exp = utils.mfind(time_exp, '"exp":', ',"device"')
+    return token, int(time_exp), http.text
 
-TOKEN = None
 
 class Scraper:
     def __init__(self):
@@ -38,9 +48,10 @@ class Scraper:
 
     def Channels(self):
         global TOKEN
+        global TOKEN_TIME
         LL=[]
         RET_STATUS = False
-        TOKEN, http = getDATA()
+        TOKEN, TOKEN_TIME, http = getDATA()
         soup = BeautifulSoup(http, "html.parser")
 
         for tag in soup.find_all('div', attrs={"class": "channel", "data-islocked": ""}):
@@ -64,5 +75,7 @@ class Scraper:
 
     def getLink(self, lnk):
         global TOKEN
-        if not TOKEN: TOKEN, _ = getDATA()
+        global TOKEN_TIME
+        if not TOKEN or int(time.time()) > TOKEN_TIME - 600:
+            TOKEN, TOKEN_TIME, _ = getDATA()
         return f"{lnk}?token={TOKEN}"
