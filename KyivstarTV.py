@@ -11,6 +11,8 @@ sys.path.append(root_dir)
 import utils
 from utils import logger, DEF_BROWSER
 
+if not os.path.isdir(cache_dir): os.makedirs(cache_dir)
+
 SOURCE = Path(__file__).stem
 TOKEN_PATCH = os.path.join(cache_dir, SOURCE)
 
