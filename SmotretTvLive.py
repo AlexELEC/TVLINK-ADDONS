@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 class Scraper:
     def __init__(self):
         self.source = Path(__file__).stem
-        self.site = 'http://telik.live'
+        self.site = 'http://smotret-tv.live'
         self.headers = {'User-Agent': DEF_BROWSER,
                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
                         'Referer': self.site}
