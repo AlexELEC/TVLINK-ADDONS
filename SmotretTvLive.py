@@ -84,8 +84,8 @@ class Scraper:
         url = utils.mfind(http, 'id:"player", file:"', '"});')
 
         if not url.startswith('http'):
-            url = utils.mfind(http, '<iframe src=', '></iframe>')
-            url = url.replace('"', '')
+            soup = BeautifulSoup(http, "html.parser")
+            url = soup.find('iframe').get('src')
             parts_url = url.split()
             for pt in parts_url:
                 if pt.startswith('http'):
