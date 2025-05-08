@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys
+import requests
 from pathlib import Path
 
 root_dir = os.path.dirname(sys.argv[0])
@@ -79,23 +80,31 @@ class Scraper:
 
         return RET_STATUS
 
+    def checkLinks(self, chDist):
+        for lnk in chDist:
+            try:
+                ret = requests.get(lnk, verify=False, timeout=3)
+                ret.raise_for_status()
+                return lnk
+            except:
+                pass
+
+        return ''
+
     def getLink(self, lnk):
         http = utils.getURL(lnk, headers=self.headers)
         url = utils.mfind(http, 'id:"player", file:"', '"});')
 
-        if not url.startswith('http'):
+        if not url.startswith('http://') or not url.startswith('https://'):
             soup = BeautifulSoup(http, "html.parser")
             url = soup.find('iframe').get('src')
-            parts_url = url.split()
-            for pt in parts_url:
-                if pt.startswith('http'):
-                    url = pt
-                    if '?file=' in url: _, url = pt.split('?file=')
+            if '?file=' in url:
+                _, url = url.split('?file=')
 
-        if url.startswith('http'):
+        if url.startswith('http://') or url.startswith('https://'):
             if ' or ' in url:
-                head,sep,tail = url.partition(' or ')
-                url = head
+                chDist = url.split(' or ')
+                url = self.checkLinks(chDist)
             return url
         else:
             return ''
