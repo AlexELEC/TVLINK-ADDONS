@@ -7,10 +7,10 @@ libs_dir = os.path.join(root_dir, 'libs')
 ssv_file = os.path.join(libs_dir, 'soupsieve.whl')
 bs4_file = os.path.join(libs_dir, 'beautifulsoup.whl')
 
-sys.path.append(root_dir)
-sys.path.append(libs_dir)
-sys.path.insert(0, ssv_file)
-sys.path.insert(0, bs4_file)
+if not root_dir in sys.path: sys.path.append(root_dir)
+if not libs_dir in sys.path: sys.path.append(libs_dir)
+if not ssv_file in sys.path: sys.path.insert(0, ssv_file)
+if not bs4_file in sys.path: sys.path.insert(0, bs4_file)
 
 import utils
 from utils import DEF_BROWSER

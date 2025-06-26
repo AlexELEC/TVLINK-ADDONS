@@ -2,16 +2,17 @@
 
 import os, sys, re
 import requests
+from pathlib import Path
 
 root_dir = os.path.dirname(sys.argv[0])
 libs_dir = os.path.join(root_dir, 'libs')
 ssv_file = os.path.join(libs_dir, 'soupsieve.whl')
 bs4_file = os.path.join(libs_dir, 'beautifulsoup.whl')
 
-sys.path.append(root_dir)
-sys.path.append(libs_dir)
-sys.path.insert(0, ssv_file)
-sys.path.insert(0, bs4_file)
+if not root_dir in sys.path: sys.path.append(root_dir)
+if not libs_dir in sys.path: sys.path.append(libs_dir)
+if not ssv_file in sys.path: sys.path.insert(0, ssv_file)
+if not bs4_file in sys.path: sys.path.insert(0, bs4_file)
 
 import utils
 from utils import DEF_BROWSER
@@ -19,7 +20,7 @@ from bs4 import BeautifulSoup
 
 class Scraper:
     def __init__(self):
-        self.source = 'OnlineTV'
+        self.source = Path(__file__).stem
         self.site = 'https://online-tv.live'
         self.link = f'ext:{self.source}:'
         self.headers = {'User-Agent': DEF_BROWSER,
