@@ -7,7 +7,7 @@ from base64 import b64decode
 
 root_dir = os.path.dirname(sys.argv[0])
 cache_dir = os.path.join(root_dir, 'cache')
-sys.path.append(root_dir)
+if not root_dir in sys.path: sys.path.append(root_dir)
 
 import utils
 from utils import logger, DEF_BROWSER
