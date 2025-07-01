@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, json
+from pathlib import Path
 
 root_dir = os.path.dirname(sys.argv[0])
 if not root_dir in sys.path: sys.path.append(root_dir)
@@ -10,7 +11,7 @@ from utils import DEF_BROWSER
 
 class Scraper:
     def __init__(self):
-        self.source = 'IPNet'
+        self.source = Path(__file__).stem
         self.plist = 'http://api.tv.ipnet.ua/api/v2/site/channels'
         self.link = f'ext:{self.source}:'
         self.headers = {'User-Agent': DEF_BROWSER,
