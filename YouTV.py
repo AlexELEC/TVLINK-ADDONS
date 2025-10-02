@@ -33,11 +33,11 @@ class Scraper:
     def __init__(self):
         self.link = f'ext:{SOURCE}:'
         self.api_url = 'https://api.youtv.com.ua'
-        self.headers = {'user-agent': 'youtv/3.23.13+8004 (Samsung MB2; Android; 6.0.1; Mobile; null; MHC19J.20170619.091635 test-keys; 1920x1008)',
+        self.headers = {'user-agent': 'youtv Lite/3.10.5+5091 (LG MB2; Android; 6.0.1; TV; Ethernet; 1920x1008)',
                         'accept': 'application/vnd.youtv.v9+json',
                         'device-uuid': DEV_ID,
-                        'applicationid': 'ua.youtv.youtv',
-                        'device': 'mobile',
+                        'applicationid': 'ua.youtv.androidtv.old',
+                        'device': 'tv',
                         'restriction': 'uhd:true;4k:true;8k:true;hdr:false;adult:true;children:false'}
 
     def getHeaders(self):
